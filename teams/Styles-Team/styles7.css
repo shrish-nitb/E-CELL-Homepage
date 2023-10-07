@@ -5,6 +5,7 @@ body {
   background-image: url(../Images-Team/E\ summit\ bg.png);
   background-size: cover;
   background-attachment: fixed;
+  overflow-x: hidden;
   /*     #2C3639 */
 }
 
