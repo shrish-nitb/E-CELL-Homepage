@@ -948,3 +948,134 @@ height:100%;
   transition: 0.25s;
 }
   }
+
+
+
+
+  
+.glimpse{
+  width: 100%;
+  margin-top: 30px;
+}
+
+.glimpse-head{
+  color: #D99343;
+
+font-family: Raleway;
+font-size: 45px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+padding-left: 10px;
+box-sizing: border-box;
+}
+
+.glimpse>section>div{
+  transform: scale(1.5);
+}
+.glimpse>section{
+   margin-top: 130px;
+}
+.sponsor-form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 100%;
+}
+
+.sponsor-heading{
+  font-size: 3rem;
+  font-weight: bold;
+  font-family: 'Raleway';
+  margin: 0;
+  margin-top: 20px;
+}
+
+.sponsor-form>form{
+  margin-top: 20px;
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  padding-bottom: 30px;
+}
+
+.sponsor-flex{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  gap: 10px;
+}
+.sponsor-flex>input{
+  width: 100%;
+  border-radius: 2px;
+border: 0.197px solid #000;
+  height: 33px;
+  border-radius: 3px;
+background: #F4F4F4;
+box-sizing: border-box;
+font-size: 1.1rem;
+padding: 13px;
+}
+.sponsor-form>div{
+  width: 100%;
+}
+
+.sponsersubmit{
+  border-radius: 3.949px;
+background: linear-gradient(180deg, #F2A53E 0%, #D99343 100%);
+border: none;
+outline: none;
+  padding: 9px 20px;
+  color: #FFF;
+  
+text-align: center;
+font-family: Raleway;
+font-size: 1rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.711px;
+height: 35px;
+cursor: pointer;
+width: 150px;
+margin-top: 10px;
+}
+
+.sponsertext{
+  border-radius: 2px;
+  border: 0.197px solid #000;
+  resize: none;
+  border-radius: 3px;
+background: #F4F4F4;
+box-sizing: border-box;
+box-sizing: border-box;
+font-size: 1.1rem;
+padding: 13px;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+        input[type="number"]::-webkit-outer-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+        }
+
+.Sponsor-grid{
+  gap: 15px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sponsor-flex{
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+
+}
