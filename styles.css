@@ -1058,6 +1058,28 @@ font-size: 1.1rem;
 padding: 13px;
 }
 
+.Learnmore{
+  margin-bottom: 50px;
+  margin-left: 30px;
+  display: flex;
+  width: 200px;
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+  gap: 13px; 
+  border: 1px solid #D99343;
+  margin-top: 140px;
+  padding: 0 3px;
+  border-radius: 8px;
+  color: #D99343;
+text-align: justify;
+font-family: Raleway;
+font-size: 1.1rem;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 1.4px;
+}
 input[type="number"]::-webkit-inner-spin-button,
         input[type="number"]::-webkit-outer-spin-button {
             -webkit-appearance: none;
