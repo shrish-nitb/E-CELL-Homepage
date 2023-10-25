@@ -352,7 +352,7 @@ opacity: 0;
   padding-top: 100px;
   padding-bottom: 40px;
 }
-#sponsorIcons {
+/* #sponsorIcons {
   display: flex;
   width: 100%;
   height: auto;
@@ -363,14 +363,25 @@ opacity: 0;
   align-items: center;
   padding: 0px 190px 100px 190px;
   box-sizing: border-box;
+} */
+#sponsorIcons {
+  display: grid;
+  grid-template-columns: repeat(5, 190px);
+  gap: 2rem;
+  width: 100%;
+  height: auto;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 8rem;
 }
 .sponsorItem {
   position: relative;
-  width: 208px;
-  height: 149px;
+  width: 190px;
+  height: 150px;
   background-color: white;
   border-radius: 5px;
-  margin: 16px;
+  /* margin: 16px; */
   border: solid 1px #b9b5b570;
   display: flex;
   align-content: center;
