@@ -398,6 +398,9 @@ opacity: 0;
   height: auto;
   filter: contrast(2.5) ;
 }
+.sponsorItem-mini {
+  width: 90px !important;
+}
 div.transition-layer {
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 22.61%, #000 64.06%, rgba(0, 0, 0, 0.00) 100%);
   height: 250px;
