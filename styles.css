@@ -194,7 +194,8 @@ opacity: 0;
 
 /* nav css ends here  */
 #wall {
-  background: linear-gradient(315deg, rgb(19, 15, 64) 0%, rgb(0, 0, 0) 50%);
+  background-image: url("main.png"), linear-gradient(315deg, rgb(19, 15, 64) 0%, rgb(0, 0, 0) 50%);
+  background-repeat: no-repeat;
   height: 100vh;
 }
 
@@ -321,11 +322,15 @@ opacity: 0;
   bottom: 100%;
 }
 #about {
-  background: url(about\ us\ bg\ \(1\).jpg);
+  position: relative;
+  z-index: 0;
+  background-image: url("about.png");
   /* background-attachment: fixed; simple parallax*/
-  width: 100%;
-  height: 530px;
+  /* width: 100%; */
+  min-height: 100vh;
   background-repeat: no-repeat;
+  /* padding: 2rem 2rem; */
+  border: 1px solid transparent;
 }
 #guest {
     /* padding-top: 114px; */
@@ -476,7 +481,7 @@ line-height: normal;
   padding-top: 100px;
   padding-bottom: 40px;
 }
-#sponsorIcons {
+/* #sponsorIcons {
   display: flex;
   width: 100%;
   height: auto;
@@ -487,14 +492,25 @@ line-height: normal;
   align-items: center;
   padding: 0px 190px 100px 190px;
   box-sizing: border-box;
+} */
+#sponsorIcons {
+  display: grid;
+  grid-template-columns: repeat(5, 190px);
+  gap: 2rem;
+  width: 100%;
+  height: auto;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 8rem;
 }
 .sponsorItem {
   position: relative;
-  width: 208px;
-  height: 149px;
+  width: 190px;
+  height: 150px;
   background-color: white;
   border-radius: 5px;
-  margin: 16px;
+  /* margin: 16px; */
   border: solid 1px #b9b5b570;
   display: flex;
   align-content: center;
@@ -511,20 +527,39 @@ line-height: normal;
   height: auto;
   filter: contrast(2.5) ;
 }
-
-#about-text {
+.sponsorItem-mini {
+  width: 90px !important;
+}
+div.transition-layer {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 22.61%, #000 64.06%, rgba(0, 0, 0, 0.00) 100%);
+  height: 250px;
   position: absolute;
-  margin-left: 139px;
-  margin-top: 139px;
+  width: 100%;
+  top: -150px;
+}
+#about-text {
+  /* position: absolute; */
+  /* margin-left: 139px; */
+  /* margin-top: 139px; */
   font-family: "Raleway";
   font-style: normal;
   font-weight: 500;
-  font-size: 18px;
-  line-height: 30px;
+  font-size: 1.25rem;
+  line-height: 2rem;
   text-align: justify;
   letter-spacing: 0.07em;
   color: #e8e8e8;
   overflow-wrap: break-word;
+}
+
+h2.about-text-head {
+  color: #d99343;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.75rem;
+  line-height: 3.15rem;
+  text-align: center !important
 }
 .head {
   margin-bottom: 40px;
@@ -798,9 +833,10 @@ height:100%;
   
 }
 .about-text-mbl{
-  margin: 120px 139px !important;
+  margin: 100px 120px !important;
+  margin-top: 7rem !important;
   
-  font-size: 21px !important;
+  font-size: 20px !important;
 
 }
 
