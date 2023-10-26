@@ -313,6 +313,13 @@ opacity: 0;
   transition:0.25s;
 }
 
+.formspon{
+  width: 80%;
+  background-color: white;
+  position: absolute;
+  top: -10%;
+  bottom: 100%;
+}
 #about {
   background: url(about\ us\ bg\ \(1\).jpg);
   /* background-attachment: fixed; simple parallax*/
@@ -332,6 +339,128 @@ opacity: 0;
     align-content: center;
     justify-content: center;
     position: relative;
+}
+
+.our-achiev{
+  position: absolute;
+  top: 83%;
+  margin: 0;
+  padding: 0;
+  border-radius: 10px;
+}
+
+
+.location-2{
+  background-image: url("./assets/glimpse/manit\ image\ 1.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  padding: 200px 0;
+  color: #FFF;
+text-align: center;
+font-family: Raleway;
+font-size: 1.7rem;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+display: flex;
+flex-direction:column;
+gap: 30px;
+align-items: center;
+position: relative;
+}
+
+.location-2>p{
+  margin: 0;
+  padding: 0;
+}
+
+.location-2>div>p{
+  margin: 0;
+  padding: 0;
+}
+
+.sp-form{
+  display: flex;
+   width: 100%;
+   color:black;
+   background-color: white;
+   border-radius: 10px;
+   justify-content: space-around;
+}
+
+#sp-form-1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#sp-form-1>div{
+  width: 100%;
+}
+
+.forminput{
+  border-radius: 8px;
+border: 1px solid #727171;
+background: #F8F8F8;
+height: 55px;
+display: flex;
+align-items: center;
+padding: 0 10px;
+}
+
+.forminput>input{
+  background: #F8F8F8;
+  font-size: 1.1rem;
+  width: 80%;
+  border: none;
+  padding-left: 5px;
+  height: 40px;
+  outline: none;
+}
+
+.forminput>button{
+  width: 20%;
+  color: #FFF;
+text-align: center;
+font-family: Raleway;
+font-size: 15px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1.8px;
+border-radius: 10px;
+background: #F2A53E;
+border: none;
+outline: none;
+height: 30px;
+padding: 5px 4px;
+cursor: pointer;
+}
+.content{
+  box-sizing: border-box;
+  padding: 30px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 80vw;
+  color: #1F2029;
+ font-family: 'Montserrat';
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.content>div>h1{
+  margin: 0;
+  padding: 0;
+}
+
+.content>div{
+  max-height: fit-content;
+  flex-direction: column;
+  justify-content: center;
+ gap: 5px;
+  display: flex;
 }
 #sponsor {
   background: linear-gradient(269deg, rgb(19, 15, 64) 0%, rgb(0, 0, 0) 50%);
