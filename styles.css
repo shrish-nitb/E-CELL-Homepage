@@ -322,15 +322,17 @@ opacity: 0;
   bottom: 100%;
 }
 #about {
+  box-sizing: border-box;
   position: relative;
   z-index: 0;
   background-image: url("about.png");
+  background-size: cover;
   /* background-attachment: fixed; simple parallax*/
-  /* width: 100%; */
   min-height: 100vh;
   background-repeat: no-repeat;
-  /* padding: 2rem 2rem; */
-  border: 1px solid transparent;
+  padding-top: 6rem;
+  /* border: 1px solid transparent;
+  border: 1px solid red; */
 }
 #guest {
     /* padding-top: 114px; */
@@ -538,18 +540,26 @@ div.transition-layer {
   top: -150px;
 }
 #about-text {
-  /* position: absolute; */
-  /* margin-left: 139px; */
-  /* margin-top: 139px; */
+  margin: 0 12rem;
   font-family: "Raleway";
   font-style: normal;
   font-weight: 500;
-  font-size: 1.25rem;
-  line-height: 2rem;
+  font-size: 1.15rem;
   text-align: justify;
-  letter-spacing: 0.07em;
+  line-height: 1.35rem;
+  letter-spacing: 0.02625em;
   color: #e8e8e8;
   overflow-wrap: break-word;
+}
+@media (max-width:1000px) {
+  #about-text {
+    margin: 0 8rem;
+  }
+}
+@media (max-widht:800px) {
+  #about-text {
+    margin: 0 6rem;
+  }
 }
 
 h2.about-text-head {
@@ -836,7 +846,7 @@ height:100%;
   margin: 100px 120px !important;
   margin-top: 7rem !important;
   
-  font-size: 20px !important;
+  font-size: 1.15rem !important;
 
 }
 
