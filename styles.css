@@ -475,7 +475,7 @@ line-height: normal;
   box-sizing: border-box;
   padding: 6rem;
   padding-top: 6rem;
-  padding-bottom: 8rem;
+  padding-bottom: 10rem;
 }
 @media(max-width:1000px) {
   #sponsor {
@@ -496,7 +496,7 @@ line-height: normal;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  gap: 2rem;
+  gap: 1.75rem;
   width: 100%;
   height: auto;
   align-content: center;
@@ -505,8 +505,8 @@ line-height: normal;
 }
 .sponsorItem {
   position: relative;
-  width: 170px;
-  height: 130px;
+  width: 175px;
+  height: 135px;
   background-color: white;
   border-radius: 5px;
   /* margin: 16px; */
