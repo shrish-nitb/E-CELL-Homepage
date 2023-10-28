@@ -733,16 +733,18 @@ input:focus, textarea:focus, select:focus{
 
 
 #events{
-  height: 123vh;
+  min-height: 123vh;
   background: url(./past\ events\ bg.png);
   background-size: cover;
   background-position: center center;
+  padding-bottom: 4rem;
 }
 
 #events-sub{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  gap: 2rem;
   align-content: center;
   justify-content:space-around;
   align-items: center;
