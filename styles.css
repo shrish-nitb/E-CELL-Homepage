@@ -203,7 +203,7 @@ opacity: 0;
 #wall {
   background-image: url("main.png"), linear-gradient(315deg, rgb(19, 15, 64) 0%, rgb(0, 0, 0) 50%);
   background-repeat: no-repeat;
-  height: 100vh;
+  min-height: 100vmin;
 }
 
 
@@ -336,11 +336,10 @@ opacity: 0;
   background-image: url("about.png");
   background-size: cover;
   /* background-attachment: fixed; simple parallax*/
-  min-height: 100vh;
+  /* min-height: 750px; */
   background-repeat: no-repeat;
   padding-top: 6rem;
-  /* border: 1px solid transparent;
-  border: 1px solid red; */
+  padding-bottom: 12rem;
 }
 
 #guest {
