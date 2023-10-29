@@ -1,5 +1,6 @@
 /* import fonts here  */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Raleway:wght@400;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
 
 body {
   margin: 0;
@@ -607,13 +608,14 @@ div.transition-layer {
 }
 #about-text {
   margin: 0 12rem;
-  font-family: "Raleway";
+  /* font-family: "Raleway"; */
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 300;
   font-size: 1.15rem;
   text-align: justify;
-  line-height: 1.35rem;
-  letter-spacing: 0.02625em;
+  line-height: 1.4rem;
+  letter-spacing: 0.015em;
   color: #e8e8e8;
   overflow-wrap: break-word;
 }
