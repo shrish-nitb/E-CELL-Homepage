@@ -13,9 +13,11 @@ a{
 .main-event{
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     padding: 3rem 0 0 0; 
     height: 100vh;
+    background: url(images/Modern\ -\ 3\ \(1\).png);
+    background-size: contain;
 }
 
 .sidebar{
@@ -33,13 +35,13 @@ a{
 
 .sec{
     flex-grow: 100%;
-    background-color: bisque;
     height: 80vh;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
     margin-bottom: 20px;
     font-size: 30px;
+    margin-left: 2rem;
 }
 
 .sec-holder{
@@ -72,7 +74,73 @@ a{
     line-height: normal;
     transition: 1s;
 }
+.heading1{
+    padding-top: 1rem;
+    color: #000;
+font-family: Montserrat;
+font-size: 1.875rem;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.heading2{
+    color: #000;
+font-family: Montserrat;
+font-size: 4rem;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.part3{
+    display:flex;
+    justify-content: space-between;
+}
+#image{
+    width: 30rem;
+height: 21rem;
 
+background: url(images/startup_expo.png) ;
+background-size: contain;
+background-repeat: no-repeat;
+
+}
+#context{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.part1{
+    width: 25rem;
+height: 12.1875rem;
+color: #000;
+font-family: Montserrat;
+font-size: 1.05rem;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 0.01rem;
+}
+.part2{
+    width: 25rem;
+    color: #727272;
+font-family: Inter;
+font-size: 1.25rem;
+font-style: italic;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.0125rem;
+padding-bottom: 1rem;
+}
+#sec7 .heading2{
+font-size: 3rem;
+}
+#sec8 .heading2{
+    font-size: 3rem;
+    }
+#sec2 .heading2{
+        font-size: 3rem;
+        }
+            
 
 @media (max-width:750px){
     .sidebar{
