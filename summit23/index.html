@@ -1,30 +1,74 @@
 <html>
-  <head>
-    <title>Glory E-Summit '23</title>
-<!--      insert required metadata here -->
-<!--      link styles and scripts here (use defer where required)  -->
-<!-- import fonts in css preferbly otherwise here -->
-  </head>
-  <body>
-<!-- avoid using embedded stylesheet  -->
-<!--      wallfooter code starts here -->
-    
-<!--      wall section  -->
 
-<!--     wallfooter code ends here  -->
+<head>
+  <title>Glory E-Summit '23</title>
+  <!--      insert required metadata here -->
+  <!--      link styles and scripts here (use defer where required)  -->
+  
+  <!-- this page follows box sizing border box property please implement design accordingly -->
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="footer.css">
+  <!-- import fonts in css preferbly otherwise here -->
+</head>
 
-<!-- timeline code starts here -->
+<body>
+  <!-- avoid using embedded stylesheet  -->
+  <!--      wallfooter code starts here -->
 
-<!-- refer gsap for triggering that highlight on nav as scroll progresses -->
+  <!--      wall section  -->
 
-<!-- timeline code ends here -->
+  <!--     wallfooter code ends here  -->
 
-<!--      wallfooter code starts here -->
+  <!-- timeline code starts here -->
 
-<!--      footer section -->
+  <!-- refer gsap for triggering that highlight on nav as scroll progresses -->
 
-<!--     wallfooter code ends here  -->
+  <!-- timeline code ends here -->
 
-<!--     place for common script and style in unevitable cases -->
-  </body>
+  <!--      wallfooter code starts here -->
+  <!--      footer section -->
+  <footer class="summit-footer">
+    <div class="left">
+      <h2 class="footer-left-head">Contact Us</h2>
+      <div class="footer-left-contacts">
+        <div class="footer-contact call">
+          <img class="contact-type-img" src="./media/call.svg" alt="">
+          <div class="contact-text call">+91 89894 73997</div>
+        </div>
+        <div class="footer-contact">
+          <img class="contact-type-img" src="./media/email.svg" alt="">
+          <div class="contact-text">support@ecellnitb.in</div>
+        </div>
+        <div class="footer-contact">
+          <img class="contact-type-img" src="./media/poi.svg" alt="">
+          <div class="contact-text">Maulana Azad National Institute Of Technology, Bhopal</div>
+        </div>
+      </div>
+    </div>
+    <div class="right">
+      <h2 class="footer-right-head">Write to us</h2>
+      <form class="footer-form" action="https://formspree.io/f/xzbwvlre" method="POST">
+        <div class="footer-input">
+            <label for="name">Full Name</label>
+            <input type="text" name="name" id="name">
+        </div>
+        <div class="footer-input">
+            <label for="email">E-Mail</label>
+            <input type="email" name="email" id="email">
+        </div>
+        <div class="footer-input">
+            <label for="message">Message</label><br>
+            <textarea name="message" id="message" rows="3"></textarea>
+        </div>
+        <br>
+        <button type="submit">SUBMIT</button>
+    </form>
+    </div>
+  </footer>
+
+  <!--     wallfooter code ends here  -->
+
+  <!--     place for common script and style in unevitable cases -->
+</body>
+
 </html>
