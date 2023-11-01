@@ -4,18 +4,52 @@
   <title>Glory E-Summit '23</title>
   <!--      insert required metadata here -->
   <!--      link styles and scripts here (use defer where required)  -->
-  
+
   <!-- this page follows box sizing border box property please implement design accordingly -->
   <link rel="stylesheet" href="index.css">
-  <link rel="stylesheet" href="footer.css">
+  <link rel="stylesheet" href="../nav.css">
+  <link rel="stylesheet" href="../styles.css">
+  <script src="https://kit.fontawesome.com/cf853307e4.js" crossorigin="anonymous"></script>
   <!-- import fonts in css preferbly otherwise here -->
 </head>
 
 <body>
   <!-- avoid using embedded stylesheet  -->
   <!--      wallfooter code starts here -->
+  <!-- navigation bar -->
+  <nav style="opacity: 1;">
+    <a href="https://www.ecellnitb.in"><img id="logo" src="../logo.png"></a>
+
+    <ul class="nav nav-items" style="text-transform: uppercase;">
+      <div id="hrSlide" style="width: 81px;left: 0px;"></div>
+      <li class="nav-link"><a href="?view=about">about us</a></li>
+      <li class="nav-link"><a href="?view=guest">speakers</a></li>
+      <li class="nav-link"><a href="?view=events">past events</a></li>
+      <li class="nav-link"><a href="http://ecell-sponsor.vercel.app/">sponsor us</a></li>
+      <li class="nav-link"><a href="https://www.ecellnitb.in/esummit">E-Summit</a></li>
+      <li class="nav-link"><a href="./teams/index.html">our team</a></li>
+      <li class="nav-link"><a href="./faq/">faqs</a></li>
+
+    </ul>
+    <div class="burger">
+      <div class="line1"></div>
+      <div class="line2"></div>
+      <div class="line3"></div>
+    </div>
+  </nav>
 
   <!--      wall section  -->
+  <section class="wall">
+    <div class="wall-head">
+      <h1 class="wall-head-first">Entrepreneurship</h1>
+      <h1 class="wall-head-second">Summit ‘<span class="wall-num">23</span></h1>
+    </div>
+    <div class="wall-text">
+      E-Summit is the flagship Event of Entrepreneurship Cell MANIT, aimed at fueling the entrepreneurial spirit in the
+      students, held start-up founders, and educating the inquisitive minds to create an innovation driven start-up
+      culture.
+    </div>
+  </section>
 
   <!--     wallfooter code ends here  -->
 
@@ -27,48 +61,97 @@
 
   <!--      wallfooter code starts here -->
   <!--      footer section -->
-  <footer class="summit-footer">
-    <div class="left">
-      <h2 class="footer-left-head">Contact Us</h2>
-      <div class="footer-left-contacts">
-        <div class="footer-contact call">
-          <img class="contact-type-img" src="./media/call.svg" alt="">
-          <div class="contact-text call">+91 89894 73997</div>
+  <div class="footer-tab">
+    <div style="width: 45%; height: 100%; margin-top: -34px;" id="conDet">
+      <div class="foot-contact" style="font-family: 'Noto Sans';">
+        <div class="contact-head">
+          <h2 style="
+                  font-family: 'Raleway';
+                  font-style: normal;
+                  font-weight: 600;
+                  font-size: 30px;
+                  /* line-height: 35px; */
+                  /* text-align: center; */
+                  letter-spacing: 0.12em;
+                  margin-top: 0px;
+                  margin-bottom: 36px;
+                  color: #D99343;
+              ">Contact Us</h2>
         </div>
-        <div class="footer-contact">
-          <img class="contact-type-img" src="./media/email.svg" alt="">
-          <div class="contact-text">support@ecellnitb.in</div>
-        </div>
-        <div class="footer-contact">
-          <img class="contact-type-img" src="./media/poi.svg" alt="">
-          <div class="contact-text">Maulana Azad National Institute Of Technology, Bhopal</div>
+        <div class="info-our">
+          <div class="info-our-body">
+            <i class="fas fa-phone-volume">&nbsp;</i>
+            <a href="tel:+918989473997" style="color:#B5B5B6;">+91 7757877965</a>
+          </div>
+          <div class="info-our-body">
+            <i class="far fa-envelope">&nbsp;</i>
+            <a href="mailto: support@ecellnitb.in" style="color:#B5B5B6;"> support@ecellnitb.in</a>
+          </div>
+          <div class="info-our-body">
+            <i class="fas fa-map-marker-alt">&nbsp;</i>
+            <div style="display: inline-block; width: 22em; vertical-align: middle;" class="mact">
+              Maulana Azad National Institute of Technology, Bhopal
+            </div>
+          </div>
         </div>
       </div>
     </div>
-    <div class="right">
-      <h2 class="footer-right-head">Write to us</h2>
-      <form class="footer-form" action="https://formspree.io/f/xzbwvlre" method="POST">
-        <div class="footer-input">
-            <label for="name">Full Name</label>
-            <input type="text" name="name" id="name">
+    <div class="box">
+      <label
+        style="font-family: 'Raleway';font-style: normal;font-weight: 600;font-size: 20px;line-height: 23px;text-align: center;letter-spacing: 0.12em;color: #D99343;margin-bottom: 25px;position: relative;top: 9px;display: inline-block;">
+        Write to us
+      </label>
+      <form action="https://formspree.io/f/xzbwvlre" method="POST">
+        <div class="input-container">
+          <input type="text" required="" name="name" placeholder="Fullname">
         </div>
-        <div class="footer-input">
-            <label for="email">E-Mail</label>
-            <input type="email" name="email" id="email">
+        <div class="input-container">
+          <input type="mail" required="" name="email" placeholder="Email">
         </div>
-        <div class="footer-input">
-            <label for="message">Message</label><br>
-            <textarea name="message" id="message" rows="3"></textarea>
+        <div class="input-container">
+          <textarea type="text" required="" name="messege" placeholder="Message"></textarea>
         </div>
-        <br>
-        <button type="submit">SUBMIT</button>
-    </form>
+        <input type="submit" class="btn">
+      </form>
     </div>
-  </footer>
+  </div>
 
   <!--     wallfooter code ends here  -->
 
   <!--     place for common script and style in unevitable cases -->
 </body>
+<script>
+  // navbar shrink script starts here
+  window.onscroll = function () { scrollFunction() };
+  function scrollFunction() {
+    if (window.innerWidth > 1110) {
+      let nav = document.getElementsByTagName("nav")[0].style;
+      let logo = document.getElementById("logo").style;
+      let navItem = document.getElementsByClassName("nav")[0].style;
+      let hrSlide = document.getElementById("hrSlide").style;
+      if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+        nav.height = "94px";
+        logo.height = "60px";
+        logo.width = "60px";
+        navItem.marginTop = "22px";
+        hrSlide.opacity = 0;
+      } else {
+        nav.height = "132px";
+        logo.height = "94px";
+        logo.width = "94px";
+        navItem.marginTop = "45px";
+        hrSlide.opacity = 0;
+      }
+    }
+    if (document.documentElement.scrollTop < 220) {
+      let progress = Math.trunc(document.documentElement.scrollTop) / 220;
+      document.getElementsByClassName("wall-heading")[0].style.opacity = (1 - (0.9 * progress));
+      document.getElementsByClassName("sub-heading")[0].style.opacity = (1 - (0.9 * (progress)));
+      document.getElementsByClassName("tagline")[0].style.opacity = (1 - (0.9 * (progress)));
+      document.getElementsByClassName("social")[0].style.opacity = (1 - (0.9 * (progress)));
+    }
+  }
+  // navbar shrink script ends here
+</script>
 
 </html>

@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&family=Raleway:wght@200;300;400;500;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800&display=swap');
 
 * {
     box-sizing: border-box;
@@ -8,3 +11,49 @@
 a {
     text-decoration: none;
 }
+
+/* wall section css start */
+section.wall {
+    min-height: 100vh;
+    background-size: cover;
+    background-image: url("./media/summit-main.png");
+    background-repeat: no-repeat;
+    background-position: center;
+
+    display: flex;
+    flex-direction: column;
+    padding: 14rem 6rem;
+}
+div.wall-head {
+    color: #E8E8E8;
+    font-family: Raleway;
+    font-size: 3.74469rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: 0.17231rem;
+}
+div.wall-text {
+    width: 50rem;
+    min-height: 5.8125rem;
+    flex-shrink: 0;
+
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 1.025rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.625rem; /* 144.444% */
+    letter-spacing: 0.07875rem;
+    padding-left: 0.25rem;
+}
+span.wall-num {
+    color: #E8E8E8;
+    font-family: Inter;
+    font-size: 5.04469rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: 0.17231rem;
+}
+/* wall section css end */
