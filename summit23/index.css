@@ -14,7 +14,7 @@ a {
 
 /* wall section css start */
 section.wall {
-    min-height: 100vh;
+    /* min-height: 100vh; */
     background-size: cover;
     background-image: url("./media/summit-main.png");
     background-repeat: no-repeat;
@@ -35,7 +35,7 @@ div.wall-head {
 }
 div.wall-text {
     width: 50rem;
-    min-height: 5.8125rem;
+    height: 5.8125rem;
     flex-shrink: 0;
 
     color: #FFF;
