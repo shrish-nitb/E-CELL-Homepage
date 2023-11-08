@@ -734,11 +734,11 @@ input:focus, textarea:focus, select:focus{
 
 
 #events{
-  min-height: 123vh;
+  /* min-height: 123vh; */
   background: url(./past\ events\ bg.png);
   background-size: cover;
   background-position: center center;
-  padding-bottom: 4rem;
+  padding-bottom: 8rem;
 }
 
 #events-sub{
