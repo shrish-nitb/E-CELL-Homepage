@@ -56,4 +56,28 @@ span.wall-num {
     line-height: normal;
     letter-spacing: 0.17231rem;
 }
+
+/* below 980px media queries not woring why */
+@media (max-width: 980px) {
+    section.wall {
+        padding: 14rem 4rem;
+    }
+    div.wall-head {
+        font-size: 3.34469rem;
+    }
+    div.wall-text {
+        width: 44rem;
+
+        font-size: 0.925rem;
+    }
+}
+
+/* @media (max-width:500px) {
+    div.wall-head {
+        font-size: 2.34469rem;
+    }
+    section.wall {
+        height: 100vh;
+    }
+} */
 /* wall section css end */
