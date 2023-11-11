@@ -40,7 +40,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
             const targetSectionId = item.getAttribute('href').substring(1);
             const targetSection = document.getElementById(targetSectionId);
-
             if (targetSection) {
                 targetSection.scrollIntoView({ behavior: 'smooth' });
             }
@@ -57,7 +56,7 @@ sections.forEach((element,idx)=>{
         help();
     })
 })
-console.log(sections);
+// console.log(sections);
 
 
 
