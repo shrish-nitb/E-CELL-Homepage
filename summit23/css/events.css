@@ -152,19 +152,18 @@ font-size: 3rem;
         }
             
 
-@media (max-width:750px){
+@media (max-width:800px){
     .sidebar{
         display: none;
     }
     .sec-holder{
         width: 100%;
     }
-   
-
-
 }
 @media (max-width:1200px){
-    .sec{height: 90vh;}
+    .sec{
+        height: 90vh;
+    }
     .part3{
         flex-direction: column;
 
