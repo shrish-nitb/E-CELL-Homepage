@@ -1,25 +1,3 @@
-// function animateValue(obj, start, end, duration) {
-//     let startTimestamp = null;
-//     const step = (timestamp) => {
-//         if (!startTimestamp) startTimestamp = timestamp;
-//         const progress = Math.min((timestamp - startTimestamp) / duration, 1);
-//         obj.innerHTML = Math.floor(progress * (end - start) + start);
-//         if (progress < 1) {
-//             window.requestAnimationFrame(step);
-//         }
-//     };
-//     window.requestAnimationFrame(step);
-// }
-
-// const count1 = document.querySelector("span.counter-one");
-// animateValue(count1, 0, 50, 3000);
-// const count2 = document.querySelector("span.counter-two");
-// animateValue(count2, 0, 20, 3000);
-// const count3 = document.querySelector("span.counter-three");
-// animateValue(count3, 0, 100, 3000);
-// const count4 = document.querySelector("span.counter-four");
-// animateValue(count4, 0, 80, 3000);
-
 function animateValue(obj, start, end, duration) {
     let startTimestamp = null;
     const step = (timestamp) => {
