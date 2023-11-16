@@ -73,7 +73,7 @@ if(window.innerWidth<500){
       </nav>
       <!-- navbar code ends  -->
       <div id="wall"  class="wall-mbl">
-        <div>
+        <!-- <div> -->
         <span class="wall-heading title-head eufhwie"> Entrepreneurship Cell </span>
         <span class="wall-heading manit-head sub-heading"> MANIT Bhopal </span>
         <span class="wall-heading tag-head tagline"> #makethingshappen </span>
@@ -91,7 +91,7 @@ if(window.innerWidth<500){
                 class="fa-brands fa-linkedin" style="/* color: white;     */ "></i></a>
           </div>
       </div>
-    </div>
+    <!-- </div> -->
       </div>
       <div id="about">
         <div class="transition-layer"></div>
@@ -128,12 +128,12 @@ if(window.innerWidth<500){
      
                         <div id="guest">
                           <div class="head speaker-hd mob-speaker-hd">
-                            <div style="/* margin-left:139px; */position: absolute;top: 114px;left: 139px;" class="speaker-hd-child">
+                            <div style="position: absolute;top: 100px;left: 120px;" class="speaker-hd-child">
                                Speakers
                             </div>
                           </div>
                           <div class="container "
-                            style="display: flex;align-items: center;justify-content: space-evenly;transform: scale(1.1); padding-bottom: 100px;">
+                            style="display: flex;align-items: center;justify-content: space-evenly;transform: scale(1.05); padding-bottom: 100px;">
                             <div class="sldBtn" onclick="
                              if(shouldScroll){
             shouldScroll = false;
@@ -480,25 +480,27 @@ if(window.innerWidth<500){
           </div>
           <div  class="our-achiev" style="background-color: white;">
             <div class="content" >
-              <div style="font-family: Raleway;">
-                <p id="sponsersee" style="font-weight: bolder; font-size: 1.8rem;">Dive into Our <br> Achievements</p>
-                <p id="sponserhid" style="font-weight: bolder; font-size: 1.8rem; transform: translateX(-1rem);">Dive into Our  Achievements</p>
+              <div class="content-left">
+                <span>Dive into Our</span>
+                <span>Achievements</span>
               </div>
-              <div style="display: flex; flex-direction: row; gap: 3rem;">
-              <div>
-                <div style="height: 4px; width: 5rem;  margin-top:10px; background-color:  black; align-self: self-start"></div>
-                <h1>1780+</h1>
-                <div >Lorem ipsum</div>
-              </div>
-              <div>
-                <div style="height: 4px; width: 5rem;  margin-top:10px; background-color:  black; align-self: self-start"></div>
-                <h1>850+</h1>
-                <div>Lorem ipsum</div>
-              </div>
-              <div>
-                <div style="height: 4px; width: 5rem;  margin-top:10px; background-color:  black; align-self: self-start"></div>
-                <h1>3260+</h1>
-                <div>Lorem ipsum</div>
+              <div class="content-right">
+                <div class="content-right-achievement">
+                  <span class="number-value"><span class="counter counter-one" data-end-value="50">0</span>+</span>
+                  <span class="text-value">Startups <br>Enthusiastically<br>took part</span>
+                </div>
+                <div class="content-right-achievement">
+                  <span class="number-value"><span class="counter counter-two" data-end-value="20">0</span>+</span>
+                  <span class="text-value">Guest speakers<br>imparted valuable insights</span>
+                </div>
+                <div class="content-right-achievement">
+                  <span class="number-value"><span class="counter counter-three" data-end-value="100">0</span>+</span>
+                  <span class="text-value">Investors <br>played a pivotal role</span>
+                </div>
+                <div class="content-right-achievement">
+                  <span class="number-value"><span class="counter counter-four" data-end-value="80">0</span>+</span>
+                  <span class="text-value">Media Outlets<br>were key to event's success</span>
+                </div>
               </div>
             </div>
           </div>
@@ -808,11 +810,11 @@ if(window.innerWidth<500){
 
   function scrollFunction() {
     // EXCLUDE - not part of nav shrink script 
-    const parallax = document.getElementById("about");
-    const parallax2 = document.getElementById("events");
-    let offset = window.pageYOffset;
-    parallax.style.backgroundPositionY = -(offset * 0.15) + "px";
-    parallax2.style.backgroundPositionY = -(offset * 0.03) + "px";
+    // const parallax = document.getElementById("about");
+    // const parallax2 = document.getElementById("events");
+    // let offset = window.pageYOffset;
+    // parallax.style.backgroundPositionY = -(offset * 0.15) + "px";
+    // parallax2.style.backgroundPositionY = -(offset * 0.03) + "px";
     // EXCLUDE - not part of nav shrink script
 
     if(window.innerWidth>1110){
@@ -905,11 +907,9 @@ background-attachment: fixed;">
       <div class="events-overlay">
 
         <div class="event-description mobevent-desc">
-          E-Summit is the annual signature event of E-Cell NIT-B, instilling entrepreneurial spirit. The goal of
-          E-Summit’22 was to enhance the financial education of young students and encourage startups and small
-          businesses. The event had been a great success in guiding people and training them in their respective fields.
-          E-Cell was honored to have the presence of renowned guests like Nisant Mohta, Rachna Suneja, Aswini Bajaj, and
-          many more.
+          Annually, Team E-Cell MANIT sets the stage on fire with E-Summit it's flagship event, a blazing beacon for enthusiastic students and entrepreneurs. It includes Central India's grandest Startup Expo which sparks innovation as startups pitch their dreams to eager investors. With adrenaline-fueled competitions like Business Plan Competition, IPL Auction, Crypto & Stock Trading Simulation, and Hackathon, skills are honed to perfection.
+          E-Summit delivers electrifying keynote wisdom from luminaries like Ashneer Grover and Prafull Billore. Workshops, seminars, and spirited social activities breathe life into innovation, fueling a revolution for a better tomorrow. 
+
         </div>
 
       </div>
@@ -941,29 +941,15 @@ background-attachment: fixed;">
       style="background-image: url(./3.png); background-position: center center; background-size: cover;margin-right:0px;">
       <div class="events-overlay">
 
-        <div class="event-description mobevent-desc">Pe-Charcha is the podcast series of E-Cell NIT-B that airs every
-          fortnight on
-          Youtube, ApplePodcasts, Spotify and Anchor. With intense discussion on various topics, it is the ideal podcast
-          for the curious minds. The renowned speakers mentor aspiring enthusiasts while also sharing the experience of
-          the speakers from a wide range of fields including Entrepreneurship, Sports, Finance, and many more.</div>
+        <div class="event-description mobevent-desc">E-Cell MANIT presents, Pe-Charcha 3.0 an electrifying and informative podcast series where trailblazers and industry patrons share their journey and experiences gliding listeners in navigating corporate landscape and inspiring sparks of innovations. This rendition of the series witnessed speakers like Mr. Bhaskar Indrakanti founder at Orange Owl, with the past speakers being Mr. Todd Dewett best selling author and former Kargil vetron Vandana Sharma. 
+        Dive into these creative and phenomenal panorama of accomplished personalities at station NITB furling the change we wish to see.
+        </div>
 
       </div>
       <div class="event-title mobevent-title">
         <p class="mobp">Pe-Charcha</p>
       </div>
     </div>
-    <!-- <div class="events-image"
-              style="background-image: url(4.png); background-position: center center; background-size: cover;">
-              <div class="events-overlay">
-          
-                <div class="event-description">Rakshapreneur is an enlightening discussion on the Strategic Importance of Defence and Military Startups. It has witnessed the presence of war veteran Major General(R) GD Bakshi, SM, VSM. He spoke about the challenges and opportunities for a startup in the field of warfare.</div>
-          
-              </div>
-          
-              <div class="event-title">
-                <p>Raksha Preneur</p>
-              </div>
-            </div> -->
   </div>
 </div>
 <div id="sponsor">
@@ -1175,50 +1161,9 @@ background-attachment: fixed;">
     <div class="sponsorItem mob-sponsorItem"><a href="https://webodoctor.com/"><img class="mob-img"
         src="./assets/logo/Webodoctor.jpg" alt="">
     </a></div>
-      <!-- <div class="last-sponsor-line">
-        
-      </div> -->
   </div>
 </div>
-  <!-- <div id="request-sponsor" class="mob-reqest-sponsor">
-    <center>
-      <div id="request-sponsor-hd" class="mob-request-sponsor-hd">
-        Become our Sponsor
-      </div>
-      <div id="form" class="mob-form">
-        <input type="text" name="" id="" class="sponsor-input mob-input" placeholder="Name" style="
-        width: 25%;
-    ">
-        <input type="text" name="" id="" class="sponsor-input mob-input" placeholder="Company Name" style="
-        width: 25%;
-    "><br>
-        <input type="mobile" name="" id="" class="sponsor-input mob-input" placeholder="Mobile" style="
-        width: 25%;
-    ">
-        <input type="email" name="" id="" class="sponsor-input mob-input" placeholder="Email" style="
-        width: 25%;
-    "><br>
-    
-        <textarea type="text" required="" placeholder="Message" style="box-sizing: border-box;width: 51.9%;height: 25vh !important;border: 0.5px solid rgb(0, 0, 0);font-family: Raleway;font-style: normal;font-weight: 400;font-size: 16px;line-height: 19px;padding: 13px 22px;letter-spacing: 0.12em;color: rgb(170, 170, 170);text-align: left;margin-right: 25px;margin-bottom: 20px;border-radius: 5px;height: 253px;resize:none;background: #f4f4f4;"></textarea><br>
-        
-    <div style="
-    text-align: left;
-    width: 50%;
-    position: relative;
-    top: -21px;
-    font-family: 'Raleway';
-font-style: italic;
-font-weight: 600;
-font-size: 12.04px;
-line-height: 9px;
-
-color: #C1C1C1;
-">* Mobile number field is optional</div> 
-        <input type="submit" value="SUBMIT" class="submit-btn mob-submit-btn">
-      </div>
-    </center>
-  </div>
-</div> -->
+  
 <div>
 <section class="location-2 "  style="width: 100%;">
      <p style="font-weight: bolder; color: #D99343; font-size: 2.2rem;">Location</p>
@@ -1322,118 +1267,7 @@ color: #C1C1C1;
     </div>
   </div>
 
-  <!-- mobile footer starts -->
-  <!-- <div style=" 
-            display: flex;
-            flex-wrap: wrap;
-            align-content: center;
-            align-items: center;
-            /* padding: 39px 147px; */
-            justify-content: center;
-            flex-direction: column;
-        ">
-    <div style="
-            width: 100vw;
-            height: 100%;
-            /* margin-top: -34px; */
-        " id="conDet">
-
-      <div class="foot-contact" style="font-family: 'Noto Sans';">
-        <div class="contact-head" style="
-    text-align: center;
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 23px;
-    text-align: center;
-    letter-spacing: 0.12em;
-    color: #D99343;
-    margin-top: 41px;
-">
-          <h2 style="
-                  font-family: 'Raleway';
-                  font-style: normal;
-                  font-weight: 600;
-                  font-size: 30px;
-                  /* line-height: 35px; */
-                  /* text-align: center; */
-                  letter-spacing: 0.12em;
-                  /* margin-top: 0px; */
-                  margin-bottom: 30px;
-                  color: #D99343;
-                  font-family: 'Raleway';
-                  font-style: normal;
-                  font-weight: 600;
-                  font-size: 20px;
-                  line-height: 23px;
-                  text-align: center;
-                  letter-spacing: 0.12em;
-                  color: #D99343;
-              ">Contact Us</h2>
-        </div>
-        <div class="info-our" style="
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-content: center;
-    align-items: center;
-    justify-content: space-around;
-">
-    <div>
-          <div class="info-our-body">
-            <i class="fas fa-phone-volume" aria-hidden="true">&nbsp;</i>
-            <a href="tel:+918989473997" style="color:#B5B5B6;">+91 89894 73997</a>
-          </div>
-          <div class="info-our-body">
-            <i class="far fa-envelope" aria-hidden="true">&nbsp;</i>
-            <a href="mailto: support@ecellnitb.in" style="color:#B5B5B6;"> support@ecellnitb.in</a>
-          </div>
-    </div>
-    
-          <div class="info-our-body">
-            <i class="fas fa-map-marker-alt" aria-hidden="true" style="
-    display: inline;
-">&nbsp;</i>
-            <div style="
-                    display: inline-block;
-                    width: 14em;
-                    vertical-align: middle;
-                    font-family: 'Raleway';
-                    font-style: normal;
-                    font-weight: 500;
-                    font-size: 9px;
-                    line-height: 12px;
-/* or 133% */
-                    letter-spacing: 0.12em;
-                    color: #B5B5B6;
-                ">Maulana Azad National Institute of Technology, Bhopal</div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="box">
-      <label style="font-family: 'Raleway';font-style: normal;font-weight: 600;font-size: 20px;line-height: 23px;text-align: center;letter-spacing: 0.12em;color: #D99343;margin-bottom: 25px;/* position: relative; *//* top: 9px; */display: inline-block;padding-top: 34px;border-top: 0.250586px solid #CACACA;margin-top: 26px;width: 156px;">Write
-        to us</label>
-      <form>
-        <div class="input-container">
-          <input type="text" required="" placeholder="Fullname">
-        </div>
-        <div class="input-container">
-          <input type="mail" required="" placeholder="Email">
-        </div>
-        <div class="input-container">
-          <textarea type="text" required="" placeholder="Message"></textarea>
-        </div>
-        <button type="button" class="btn" style="
-    margin-bottom: 40px;
-">submit</button>
-      </form>
-    </div>
-  </div>  -->
-  <!-- mobile footer ends -->
-<!-- </div> -->
-<!-- </div> -->
+  
 </div>
 <style>
   .events-overlay {
@@ -1499,14 +1333,13 @@ color: #C1C1C1;
   font-family: Raleway;
   font-style: normal;
   font-weight: 600;
-  font-size: 16px;
-  line-height: 19px;
+  font-size: 0.9rem;
+  line-height: 1rem;
   letter-spacing: .07em;
   text-align: left;
   color: #fff;
   overflow-wrap: break-word;
-
-  padding: 42px 30px 40px 30px;
+  padding: 1.75rem;
 }
 
 .events-image:hover .events-overlay {
@@ -1620,6 +1453,7 @@ color: #C1C1C1;
   }
   navSlide();
 </script>
+<script src="counter.js"></script>
 <!-- nav script ends here -->
 
 </html>

@@ -1,6 +1,7 @@
 /* @media only screen and (max-width: 600px) { */
 /* import fonts here  */
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Raleway:wght@400;600;700;800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Raleway:wght@400;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
 
 body {
   margin: 0;
@@ -196,6 +197,86 @@ nav {
   justify-content: center;
   align-items: center;
   align-content: center;
+}
+
+.glimpse {
+  min-height: 100vh;
+
+}
+
+h1.glimpse-head {
+  color: #D99343;
+  font-family: Raleway;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: 2rem;
+}
+
+@media (max-width:350px) {
+  h1.glimpse-head {
+    font-size: 23px;
+  }
+  .glimpse-head-number {
+    color: #D99343;
+    font-family: Montserrat;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+}
+
+.glimpse-head-number {
+  color: #D99343;
+  font-family: Montserrat;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+div.glimpse-image > img {
+  width: 100vw !important;
+}
+
+div.speaker-item-wrapper img {
+  max-width: 43.733vw;
+  height: auto;
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+}
+
+div.glimpse-bottom {
+  height: 8rem;
+  display: flex;
+  align-items: center;
+}
+div.button {
+  margin-left: 2rem;
+  border-radius: 10px;
+  border: 1px solid #D99343;
+  height: calc(0.75rem + 5vw);
+  width: calc(5rem + 10vw);
+
+
+  display: inline-flex;
+  padding: 0.35rem 1rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.8rem;
+
+  color: #D99343;
+  text-align: justify;
+  font-family: Raleway;
+  font-size: calc(0.5rem + 1.25vw);
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.0525rem;
 }
 
 .social-bigs {
@@ -748,14 +829,6 @@ height:100%;
   /* margin-left: 446px !important; */
 }
 
-img {
-  max-width: 43.733vw !important;
-  height: auto !important;
-  width: auto !important;
-  margin-left: auto !important;
-  margin-right: auto !important;
-  border-radius: 10px !important;
-}
 
 .speaker-item-wrapper {
   margin: 0px 0px 90px 0px !important;
@@ -1251,20 +1324,4 @@ padding: 13px;
 
 }
 
-.glimpse{
-  width: 100%;
-  margin-top: 30px;
-}
-
-.glimpse-head{
-  color: #D99343;
-
-font-family: Raleway;
-font-size: 1rem;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-padding-left: 10px;
-box-sizing: border-box;
-}
 
