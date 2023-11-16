@@ -410,7 +410,7 @@ div.button {
 #guest {
   /* padding-top: 114px; */
   /* padding-left: 139px; */
-  height: 513px;
+  height: 650px;
   width: 100%;
   background: url(guest-bg.png);
   box-sizing: border-box;
@@ -798,6 +798,7 @@ height:100%;
   display: block !important;
   transform: scale(1) !important;
   margin-top: 0 !important;
+  margin-bottom: 10rem;
 }
 
 .speaker-hd-child {
@@ -1325,3 +1326,58 @@ padding: 13px;
 }
 
 
+.our-achiev{
+  position: absolute;
+  margin: 12rem 0;
+  padding: 0;
+  top: 50%;
+  border-radius: 10px;
+
+}
+
+.content{
+  box-sizing: border-box;
+  padding: 2rem 3rem;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: space-between;
+  gap: 2rem;
+  width: 80vw;
+  min-height: 14rem;
+  color: #1F2029;
+  font-family: 'Montserrat';
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+div.content-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+div.content-right {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 2rem;
+  justify-content: space-evenly;
+  text-align: left;
+  width: 100%;
+  gap: 1rem;
+  height: 100%;
+  padding: 1rem 0rem;
+  font-size: 0.8rem;
+}
+
+div.content-right-achievement {
+  display: flex;
+  flex-direction: column;
+  padding: 0rem 0.25rem;
+  width: 7rem;
+  align-items: flex-start;
+  /* min-height: 6rem; */
+  margin-bottom: auto;
+}
