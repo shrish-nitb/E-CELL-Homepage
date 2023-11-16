@@ -189,7 +189,9 @@ nav {
 
 /* nav css ends here  */
 #wall {
-  background: linear-gradient(315deg, rgb(19, 15, 64) 0%, rgb(0, 0, 0) 50%);
+  background-image: url("Group\ 3021.png");
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 48vh;
   display: flex;
   flex-direction: column;
@@ -400,13 +402,23 @@ div.button {
 }
 
 #about {
-  background: url(about-bg.png);
+  box-sizing: border-box;
+  position: relative;
+  padding-top: 2rem;
+  background-image: url("Group\ 3025.png");
+  background-repeat: no-repeat;
   /* background-attachment: fixed; simple parallax*/
   width: 100%;
   height: 709px;
   background-position: center center;
 }
-
+div.transition-layer {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 22.61%, #000 64.06%, rgba(0, 0, 0, 0.00) 100%);
+  height: 250px;
+  position: absolute;
+  width: 100%;
+  top: -150px;
+}
 #guest {
   /* padding-top: 114px; */
   /* padding-left: 139px; */
@@ -968,13 +980,12 @@ iframe{
   width: 100vw;
   font-size: 1em !important;
 }
-.about-us-mbl{
+/* .about-us-mbl{
   background-image: url(./about\ us\ mobile\ \(1\).png) !important;
   background-repeat: no-repeat !important;
   background-size: cover !important;
   height: 400px !important;
-  
-}
+} */
 .head-mbl{
   font-weight: 700 !important;
   font-size: 25px !important;
