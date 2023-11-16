@@ -37,7 +37,6 @@ document.addEventListener("DOMContentLoaded", function () {
     listItems.forEach((item) => {
         item.addEventListener('click', (e) => {
             e.preventDefault();
-
             const targetSectionId = item.getAttribute('href').substring(1);
             const targetSection = document.getElementById(targetSectionId);
             if (targetSection) {
