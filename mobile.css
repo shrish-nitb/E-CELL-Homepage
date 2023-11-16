@@ -575,6 +575,7 @@ div.button {
   background: url(./past\ events\ bg.png);
   background-size: cover;
   background-position: center center;
+  padding: 11rem 0 0 0;
 }
 
 #events-sub {
@@ -1332,7 +1333,7 @@ padding: 13px;
   padding: 0;
   top: 50%;
   border-radius: 10px;
-
+  background: inherit;
 }
 
 .content{
@@ -1351,6 +1352,7 @@ padding: 13px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  background-color: white;
 }
 
 div.content-left {
