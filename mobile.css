@@ -542,7 +542,7 @@ div.transition-layer {
   color: #1f2029;
 }
 
-#form {
+/* #form {
   padding-top: 27px;
 }
 
@@ -563,7 +563,7 @@ div.transition-layer {
 
   color: #aaaaaa;
   text-align: left;
-  /* margin-right: 25px; */
+
 }
 
 .submit-btn {
@@ -580,6 +580,99 @@ div.transition-layer {
   text-align: center;
   letter-spacing: 0.12em;
   color: #ffffff;
+} */
+/* #sponserhid{
+  display: none;
+} */
+
+.sp-form{
+  position:absolute;
+  bottom:50%;
+  display: flex;
+  
+  width: 70%;
+  height: 16.5rem;
+border-radius: 0.625rem;
+background: #FFF;
+box-shadow: 0px 0px 42px 0px rgba(0, 0, 0, 0.15);
+
+color: #1F2029;
+font-family: Raleway;
+font-size: 2rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+   
+   justify-content: space-around;
+   align-items:flex-start;
+   text-align: justify;
+   flex-direction: column;
+   padding: 2rem;
+   transform: translateX(8%);
+}
+
+/* #sp-form-1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+#sp-form-1>div{
+  width: 100%;
+}
+
+.forminput{
+  
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+
+align-items: flex-start;
+
+}
+
+.forminput>input{
+  
+display: flex;
+width: 14.9375rem;
+height: 2rem;
+padding: 0.625rem 1rem;
+align-items: center;
+gap: 0.625rem;
+border-radius: 0.25rem;
+border: 0.5px solid #727171;
+background: #F8F8F8;
+color: #727171;
+font-family: Raleway;
+font-size: 0.625rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.075rem;
+margin-bottom: 1.5rem;
+}
+
+.forminput>button{
+border: none;
+display: inline-flex;
+padding: 0.625rem 1.5rem;
+justify-content: center;
+align-items: center;
+gap: 0.625rem;
+border-radius: 0.3555rem;
+background: #F2A53E;
+color: #FFF;
+text-align: center;
+font-family: Raleway;
+font-size: 0.625rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.075rem;
+}
+#sponsersee{
+  margin-block-end: 0rem;
+  font-weight: bolder;
 }
 
 #events {
@@ -599,13 +692,19 @@ div.transition-layer {
   align-items: center;
 }
 
-#location {
+#location2 {
+  
+  position: relative;
   width: 100%;
-  height: 526px;
+  
   box-sizing: border-box;
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgb(0 0 0 / 0%)),
     url(location-bg.png);
-  padding-top: 144px;
+    height: 310px;
+    background-size: cover;
+    background-position: center center;
+    padding-block-start: 132px;
+}
 }
 
 #address-line {
@@ -1124,6 +1223,7 @@ iframe{
   align-items: center;
   padding: 0px 0px 30px 0 !important;
   box-sizing: border-box;
+  margin-block-end: 135px;
 }
 
 .mob-sponsorItem {
