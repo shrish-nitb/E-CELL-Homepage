@@ -1,184 +1,197 @@
+
+
+::-webkit-scrollbar{
+    width: 0;
+}
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
+:root {
+    font-size: 16px; /* Default root font size */
+  }
+  
+  /* Media query for small screens */
+
+  
+  /* Your other styles using rem units */
+  body {
+    font-size: 1rem; /* This will be relative to the root font size */
+  }
+  
+.parent{
+    width: 100%;
+    height: 110vh;
+    background-image: url("../images/Modern\ -\ 3\ \(1\).png");
+    padding: 3.4rem 0;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+}
 
 a{
     text-decoration: none;
-    color: inherit;
 }
-
-.main-event{
-    width: 100%;
+.side-bar{
+    width: 15%;
+    height: 80vh;
     display: flex;
-    justify-content: flex-start;
-    padding: 3rem 0 0 0; 
-    height: 120vh;
-    background: url(../images/Modern\ -\ 3\ \(1\).png);
-    background-size: contain;
-}
-
-.sidebar{
-    width: max-content;
-    z-index: 10;
+    flex-direction: column;
+    justify-content: space-around;
     border-radius: 0px 24px 24px 0px;
     background: #FCFBFF;
-    box-shadow: 2px 0px 28px 0px rgba(0, 0, 0, 0.10);
-    padding: 2rem 2rem 2rem 1.3rem;
-    margin: 2rem 0;
-    height: max-content;
-
+    padding: 0.5rem 0;
+    box-shadow: 2px 0px 24px 0px rgba(0, 0, 0, 0.10);
 }
 
-
-.sec{
-    flex-grow: 100%;
-    height: 90vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin-bottom: 20px;
-    margin-left: 2rem;
-}
-
-.sec-holder{
-    width: 100%;
-    overflow-x: hidden;
+.maindiv{
+    width: 80%;
+    height: 80vh;
     overflow-y: auto;
-    z-index: 100;
-    margin: 2rem;
-    height: 90vh;
+    margin-left:0.3rem;
 }
 
-.sec-holder::-webkit-scrollbar {
-    display: none;
+.maindiv>div{
+    width: 100%;
+    height:100%;
+    padding-right: 3rem;
 }
 
-
-.event-list{
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-}
 .list-item{
     display: flex;
-    align-items: center;
-    width: max-content;
-    gap: 0.7rem;
+    justify-content: center;
+    gap: 0.5rem;
+    color: #C5C5C5;
     font-family: 'Montserrat';
     font-size: 0.9rem;
     font-style: normal;
     font-weight: bolder;
     line-height: normal;
-    transition: 1s;
+    width: max-content;
+    margin: 0rem 1rem;
+    align-items: center;
 }
 
+.head1{
+   margin-top: 1rem;
+   color: #000;
+   font-family: Montserrat;
+   font-size: 2rem;
+   font-style: normal;
+   font-weight: 500;
+   line-height: normal;
+}
 
-/*  */
-.heading1{
-    padding-top: 1rem;
+.head2{
+    margin-top: 0.3rem;
     color: #000;
-font-family:'Montserrat';
-font-size: 1.6rem;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
+    font-family: Montserrat;
+    font-size: 3.2rem;
+    font-style: normal;
+    font-weight: bolder;
+    line-height: normal;
 }
-.heading2{
-    margin-top: 2rem;
+
+.info-par{
+   display: flex;
+   width: 100%;
+   justify-content: space-between;
+   margin-top: 2rem;
+   gap: 1rem;
+}
+
+.info-img{
+   width: 50%;
+   height: 20rem;
+}
+
+.info-con-par{
+   width: 50%;
+}
+
+.info-con-1{
     color: #000;
-font-family: 'Montserrat';
-font-size: 3rem;
-font-style: normal;
-font-weight: 900;
-line-height: normal;
-margin-top: 1rem;
-}
-.part3{
-    margin-top: 2rem;
-    display:flex;
-    justify-content: space-between;
-    margin-top: 1rem;
-}
-#image{
-   
-    width: 30rem;
-height: 19rem;
-
-background: url(../images/startup_expo.png) ;
-background-size: contain;
-background-repeat: no-repeat;
-
-}
-#context{
-    display:flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+    font-family: Montserrat;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
 }
 
-.part3{
-    display: flex;
-    gap: 1rem;
-}
-.part1{
-    width: 25rem;
-height: 12.1875rem;
-color: #000;
-font-family: 'Montserrat';
-font-size: 1.05rem;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
-letter-spacing: 0.04rem;
-}
-.part2{
-    width: 25rem;
+.info-con-2{
+    margin-top: 0.6rem;
     color: #727272;
-font-family: 'Inter';
-font-size: 1.15rem;
-font-style: italic;
-font-weight: 500;
-line-height: normal;
-letter-spacing: 0.0125rem;
-padding-bottom: 1rem;
+    font-family: Inter;
+    font-size: 1rem;
+    font-style: italic;
+    font-weight: 800;
+    line-height: normal;
 }
-#sec7 .heading2{
-font-size: 3rem;
-}
-#sec8 .heading2{
-    font-size: 3rem;
-    }
-#sec2 .heading2{
-        font-size: 3rem;
-        }
-            
 
-@media (max-width:800px){
-    .sidebar{
-        display: none;
+.maindiv::-webkit-scrollbar{
+    width: 0.3rem;
+}
+.maindiv::-webkit-scrollbar-thumb {
+    height: 1rem;
+    border-radius: 10px;
+    background-color: #FD8900;
+}
+@media screen and (max-width: 600px) {
+    :root {
+      font-size: 10px; /* Adjust root font size for small screens */
     }
-    .sec-holder{
+  }
+  
+  /* Media query for medium screens */
+  @media screen and (min-width: 601px) and (max-width: 1524px) {
+    :root {
+      font-size: 16px; /* Adjust root font size for medium screens */
+    }
+  }
+  
+  /* Media query for large screens */
+  @media screen and (min-width: 1525px) {
+    :root {
+      font-size: 20px; /* Adjust root font size for large screens */
+    }
+  }
+
+ 
+
+  @media screen and (max-width:1200px) {
+      .side-bar{
+        width: max-content;
+      }
+  }
+  @media screen and (max-width:1000px) {
+    .info-par{
+        flex-direction: column;
+    }
+    .maindiv>div{
+        height: max-content;
+        padding: 0 0 0 2rem;
+    }
+    .info-img{
+        width: 70%;
+        height: 70%;
+        display: flex;
+        justify-content: center;
+    }
+    .info-con-par{
         width: 100%;
     }
 }
-@media (max-width:1200px){
-    .sec{
-        height: 90vh;
-    }
-    .part3{
-        flex-direction: column;
 
+@media screen and (max-width:700px) {
+    .side-bar{
+      width: max-content;
     }
-    .part1,.part2,#image{
-        width:100%
+    .info-img{
+        width: 100%;
     }
-    .part1,.part2{
-        height:5rem;
-        margin-top: 2rem;
-    }
-    #image{
-        height:15rem;
-    }
+    
 }
