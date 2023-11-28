@@ -632,7 +632,6 @@ span.text-value {
 .sponsorItem img{
   width: 115px;
   height: auto;
-  filter: contrast(2.5) ;
 }
 .sponsorItem-mini {
   width: 90px !important;
