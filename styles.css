@@ -334,9 +334,7 @@ opacity: 0;
   position: relative;
   z-index: 0;
   background-image: url("about.png");
-  background-size: cover;
-  /* background-attachment: fixed; simple parallax*/
-  /* min-height: 750px; */
+  background-size: contain;
   background-repeat: no-repeat;
   padding-top: 6rem;
   padding-bottom: 12rem;
