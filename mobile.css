@@ -418,6 +418,7 @@ div.transition-layer {
   position: absolute;
   width: 100%;
   top: -150px;
+  pointer-events: none;
 }
 #guest {
   /* padding-top: 114px; */
