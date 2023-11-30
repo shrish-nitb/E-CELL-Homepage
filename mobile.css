@@ -1440,31 +1440,38 @@ padding: 13px;
 
 
 .our-achiev{
-  position: absolute;
+  /* position: absolute;
   margin: 12rem 0;
   padding: 0;
   top: 50%;
+  border-radius: 10px; */
+  /* background: inherit; */
+
+  position: absolute;
+  top: 83%;
+  margin: 0;
+  padding: 0;
   border-radius: 10px;
-  background: inherit;
 }
 
 .content{
   box-sizing: border-box;
-  padding: 2rem 3rem;
+  padding: 2rem 2.5rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  gap: 2rem;
+  gap: 1rem;
   width: 80vw;
   min-height: 14rem;
   color: #1F2029;
   font-family: 'Montserrat';
-  font-size: 1rem;
+  font-size: 1.5rem;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
   background-color: white;
+  border-radius: 10px;
 }
 
 div.content-left {
@@ -1492,6 +1499,7 @@ div.content-right-achievement {
   flex-direction: column;
   padding: 0rem 0.25rem;
   width: 7rem;
+  /* font-size: 0.85rem; */
   align-items: flex-start;
   /* min-height: 6rem; */
   margin-bottom: auto;
