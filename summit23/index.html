@@ -7,6 +7,11 @@
     <link rel="stylesheet" href="./css/timeline.css">
     <link rel="stylesheet" href="./css/wallfooter.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="../nav.css">
+    <link rel="stylesheet" href="../styles.css">
+    <script src="https://kit.fontawesome.com/cf853307e4.js" crossorigin="anonymous"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
@@ -14,7 +19,42 @@
 <body>
     <!--      wallfooter code starts here -->
 
+     <!-- navigation bar -->
+     <nav style="opacity: 1;">
+        <a href="https://www.ecellnitb.in"><img id="logo" src="../logo.png"></a>
+
+        <ul class="nav nav-items" style="text-transform: uppercase;">
+            <div id="hrSlide" style="width: 81px;left: 0px;"></div>
+            <li class="nav-link"><a href="?view=about">about us</a></li>
+            <li class="nav-link"><a href="?view=guest">speakers</a></li>
+            <li class="nav-link"><a href="?view=events">past events</a></li>
+            <li class="nav-link"><a href="http://ecell-sponsor.vercel.app/">sponsor us</a></li>
+            <li class="nav-link"><a href="https://www.ecellnitb.in/esummit">E-Summit</a></li>
+            <li class="nav-link"><a href="../teams/index.html">our team</a></li>
+            <li class="nav-link"><a href="../faq/">faqs</a></li>
+
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+
     <!--      wall section  -->
+    <section class="wall">
+        <div class="wall-head">
+            <h1 class="wall-head-first">Entrepreneurship</h1>
+            <h1 class="wall-head-second">Summit &#10075;<span class="wall-num">23</span></h1>
+        </div>
+        <div class="wall-text">
+            E-Summit is the flagship Event of Entrepreneurship Cell MANIT, aimed at fueling the entrepreneurial spirit
+            in the
+            students, held start-up founders, and educating the inquisitive minds to create an innovation driven
+            start-up
+            culture.
+        </div>
+    </section>
 
     <!--     wallfooter code ends here  -->
 
@@ -218,11 +258,65 @@
         </section>
     </section>
     <!-- timeline code ends here -->
-    
+
     <!--      wallfooter code starts here -->
-    
+
     <!--      footer section -->
-    
+    <div class="footer-tab">
+        <div style="width: 45%; height: 100%; margin-top: -34px;" id="conDet">
+            <div class="foot-contact" style="font-family: 'Noto Sans';">
+                <div class="contact-head">
+                    <h2 style="
+                  font-family: 'Raleway';
+                  font-style: normal;
+                  font-weight: 600;
+                  font-size: 30px;
+                  /* line-height: 35px; */
+                  /* text-align: center; */
+                  letter-spacing: 0.12em;
+                  margin-top: 0px;
+                  margin-bottom: 36px;
+                  color: #D99343;
+              ">Contact Us</h2>
+                </div>
+                <div class="info-our">
+                    <div class="info-our-body">
+                        <i class="fas fa-phone-volume">&nbsp;</i>
+                        <a href="tel:+918989473997" style="color:#B5B5B6;">+91 7757877965</a>
+                    </div>
+                    <div class="info-our-body">
+                        <i class="far fa-envelope">&nbsp;</i>
+                        <a href="mailto: support@ecellnitb.in" style="color:#B5B5B6;"> support@ecellnitb.in</a>
+                    </div>
+                    <div class="info-our-body">
+                        <i class="fas fa-map-marker-alt">&nbsp;</i>
+                        <div style="display: inline-block; width: 22em; vertical-align: middle;" class="mact">
+                            Maulana Azad National Institute of Technology, Bhopal
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <label
+                style="font-family: 'Raleway';font-style: normal;font-weight: 600;font-size: 20px;line-height: 23px;text-align: center;letter-spacing: 0.12em;color: #D99343;margin-bottom: 25px;position: relative;top: 9px;display: inline-block;">
+                Write to us
+            </label>
+            <form action="https://formspree.io/f/xzbwvlre" method="POST">
+                <div class="input-container">
+                    <input type="text" required="" name="name" placeholder="Fullname">
+                </div>
+                <div class="input-container">
+                    <input type="mail" required="" name="email" placeholder="Email">
+                </div>
+                <div class="input-container">
+                    <textarea type="text" required="" name="messege" placeholder="Message"></textarea>
+                </div>
+                <input type="submit" class="btn">
+            </form>
+        </div>
+    </div>
+
     <!--     wallfooter code ends here  -->
     <!--     place for common script and style in unevitable cases -->
     <script src="./script/events.js"></script>
