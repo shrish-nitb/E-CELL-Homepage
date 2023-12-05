@@ -1,17 +1,17 @@
 const list=document.querySelectorAll('.list-par');
 const names=document.querySelectorAll('.list-item');
 const dot=document.querySelectorAll('.dot')
-console.log(names);
-console.log(dot[0]);
+// console.log(names);
+// console.log(dot[0]);
 
 let k=0;
 list.forEach((element,idx) => {
-    console.log(element.value);
+   // console.log(element.value);
     element.addEventListener('click',(e)=>{
         e.preventDefault();
         k=idx;
         help();
-        console.log(element.value+"is clicked");
+       // console.log(element.value+"is clicked");
     })
 });
 
@@ -26,7 +26,7 @@ const help=()=>{
             dot[idx].style.backgroundColor="#C5C5C5";
          }
     });
-    console.log("change color of "+k);
+   // console.log("change color of "+k);
 }
 
 
@@ -52,7 +52,7 @@ const help=()=>{
 const sections=document.querySelectorAll('.sec');
 sections.forEach((element,idx)=>{
     element.addEventListener('mouseover',()=>{
-        console.log("mouse over "+idx);
+  //      console.log("mouse over "+idx);
         k=idx;
         help();
     })
