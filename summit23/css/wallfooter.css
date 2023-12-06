@@ -20,7 +20,7 @@ section.wall {
 div.wall-head {
     color: #E8E8E8;
     font-family: Raleway;
-    font-size: calc(48px + (48 - 36) * ((100vw - 400px) / (1600 - 400)));
+    font-size: calc(1rem + 3vw);
     font-style: normal;
     font-weight: 800;
     line-height: normal;
@@ -44,7 +44,7 @@ div.wall-text {
 span.wall-num {
     color: #E8E8E8;
     font-family: Inter;
-    font-size: 5.04469rem;
+    font-size: calc(2rem + 3vw);
     font-style: normal;
     font-weight: 800;
     line-height: normal;
@@ -55,11 +55,13 @@ span.wall-num {
     section.wall {
         padding: 12rem 4rem;
     }
-    span.wall-num {
-        font-size: 4.54469rem;
-    }
 }
 
+@media (max-width:650px) {
+    div.wall-head {
+        font-size: calc(0.8rem + 3vw);
+    }
+}
 
 
 @media screen and (max-width: 500px) {
@@ -387,3 +389,4 @@ hr.mobile-separation {
     }
 }
 /* footer section css end */
+
