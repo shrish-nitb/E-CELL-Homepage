@@ -1,5 +1,83 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&family=Raleway:wght@200;300;400;500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&family=Raleway:wght@200;300;400;500;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800&display=swap');
+
+/* wall section css start */
+section.wall {
+    --wall-head-font-size:16px;
+    background-size: cover;
+    background-image: url("../media/summit-main.png");
+    background-repeat: no-repeat;
+    background-position: right;
+
+    display: flex;
+    flex-direction: column;
+    padding: 14rem 6rem;
+}
+
+div.wall-head {
+    color: #E8E8E8;
+    font-family: Raleway;
+    font-size: calc(52px + (52 - 30) * ((100vw - 300px) / (1600 - 300)));
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: 0.17231rem;
+}
+
+div.wall-text {
+    max-width: 50rem;
+    flex-shrink: 0;
+
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: calc(12px + (18 - 12) * ((100vw - 300px) / (1600 - 300)));
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.625rem;
+    letter-spacing: 0.07875rem;
+    padding-left: 0.25rem;
+}
+
+span.wall-num {
+    color: #E8E8E8;
+    font-family: Inter;
+    font-size: 5.04469rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: 0.17231rem;
+}
+
+@media (max-width:1024px) {
+    section.wall {
+        padding: 12rem 4rem;
+    }
+    /* div.wall-text {
+        font-size: 0.925rem;
+    } */
+    /* div.wall-head {
+        font-size: 3.24469rem;
+    } */
+    span.wall-num {
+        font-size: 4.54469rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    div.wall-head {
+        color: #E8E8E8;
+        text-align: center;
+        font-family: Raleway;
+        font-size: calc(var(--wall-head-font-size) * 1.70681);
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+        letter-spacing: 0.05119rem;
+    }
+}
 
 /* footer section css start */
 footer.summit-footer {
