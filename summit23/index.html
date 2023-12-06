@@ -20,7 +20,7 @@
     <!--      wallfooter code starts here -->
 
      <!-- navigation bar -->
-     <nav style="opacity: 1;">
+     <!-- <nav style="opacity: 1;">
         <a href="https://www.ecellnitb.in"><img id="logo" src="../logo.png"></a>
 
         <ul class="nav nav-items" style="text-transform: uppercase;">
@@ -39,10 +39,10 @@
             <div class="line2"></div>
             <div class="line3"></div>
         </div>
-    </nav>
+    </nav> -->
 
     <!--      wall section  -->
-    <section class="wall">
+    <!-- <section class="wall">
         <div class="wall-head">
             <h1 class="wall-head-first">Entrepreneurship</h1>
             <h1 class="wall-head-second">Summit &#10075;<span class="wall-num">23</span></h1>
@@ -54,7 +54,7 @@
             start-up
             culture.
         </div>
-    </section>
+    </section> -->
 
     <!--     wallfooter code ends here  -->
 
@@ -262,60 +262,45 @@
     <!--      wallfooter code starts here -->
 
     <!--      footer section -->
-    <div class="footer-tab">
-        <div style="width: 45%; height: 100%; margin-top: -34px;" id="conDet">
-            <div class="foot-contact" style="font-family: 'Noto Sans';">
-                <div class="contact-head">
-                    <h2 style="
-                  font-family: 'Raleway';
-                  font-style: normal;
-                  font-weight: 600;
-                  font-size: 30px;
-                  /* line-height: 35px; */
-                  /* text-align: center; */
-                  letter-spacing: 0.12em;
-                  margin-top: 0px;
-                  margin-bottom: 36px;
-                  color: #D99343;
-              ">Contact Us</h2>
-                </div>
-                <div class="info-our">
-                    <div class="info-our-body">
-                        <i class="fas fa-phone-volume">&nbsp;</i>
-                        <a href="tel:+918989473997" style="color:#B5B5B6;">+91 7757877965</a>
-                    </div>
-                    <div class="info-our-body">
-                        <i class="far fa-envelope">&nbsp;</i>
-                        <a href="mailto: support@ecellnitb.in" style="color:#B5B5B6;"> support@ecellnitb.in</a>
-                    </div>
-                    <div class="info-our-body">
-                        <i class="fas fa-map-marker-alt">&nbsp;</i>
-                        <div style="display: inline-block; width: 22em; vertical-align: middle;" class="mact">
-                            Maulana Azad National Institute of Technology, Bhopal
-                        </div>
-                    </div>
-                </div>
+    <footer class="summit-footer">
+        <div class="footer-left">
+          <h2 class="footer-left-head">Contact Us</h2>
+          <div class="footer-left-contacts">
+            <div class="footer-contact call one">
+              <img class="contact-type-img" src="./media/call.svg" alt="">
+              <div class="contact-text call">+91 89894 73997</div>
             </div>
+            <div class="footer-contact two">
+              <img class="contact-type-img" src="./media/email.svg" alt="">
+              <div class="contact-text">support@ecellnitb.in</div>
+            </div>
+            <div class="footer-contact three">
+              <img class="contact-type-img" src="./media/poi.svg" alt="">
+              <div class="contact-text">Maulana Azad National Institute Of Technology, Bhopal</div>
+            </div>
+          </div>
         </div>
-        <div class="box">
-            <label
-                style="font-family: 'Raleway';font-style: normal;font-weight: 600;font-size: 20px;line-height: 23px;text-align: center;letter-spacing: 0.12em;color: #D99343;margin-bottom: 25px;position: relative;top: 9px;display: inline-block;">
-                Write to us
-            </label>
-            <form action="https://formspree.io/f/xzbwvlre" method="POST">
-                <div class="input-container">
-                    <input type="text" required="" name="name" placeholder="Fullname">
-                </div>
-                <div class="input-container">
-                    <input type="mail" required="" name="email" placeholder="Email">
-                </div>
-                <div class="input-container">
-                    <textarea type="text" required="" name="messege" placeholder="Message"></textarea>
-                </div>
-                <input type="submit" class="btn">
-            </form>
+        <hr class="mobile-separation">
+        <div class="footer-right">
+          <h2 class="footer-right-head">Write to us</h2>
+          <form class="footer-form" action="https://formspree.io/f/xzbwvlre" method="POST">
+            <div class="footer-input">
+                <label for="name">Full Name</label>
+                <input type="text" name="name" id="name">
+            </div>
+            <div class="footer-input">
+                <label for="email">E-Mail</label>
+                <input type="email" name="email" id="email">
+            </div>
+            <div class="footer-input">
+                <label for="message">Message</label><br>
+                <textarea name="message" id="message" rows="3"></textarea>
+            </div>
+            <br>
+            <button type="submit">SUBMIT</button>
+        </form>
         </div>
-    </div>
+      </footer>
 
     <!--     wallfooter code ends here  -->
     <!--     place for common script and style in unevitable cases -->
