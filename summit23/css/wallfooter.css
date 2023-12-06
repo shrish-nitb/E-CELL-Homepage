@@ -20,7 +20,7 @@ section.wall {
 div.wall-head {
     color: #E8E8E8;
     font-family: Raleway;
-    font-size: calc(52px + (52 - 30) * ((100vw - 300px) / (1600 - 300)));
+    font-size: calc(48px + (48 - 36) * ((100vw - 400px) / (1600 - 400)));
     font-style: normal;
     font-weight: 800;
     line-height: normal;
@@ -55,27 +55,41 @@ span.wall-num {
     section.wall {
         padding: 12rem 4rem;
     }
-    /* div.wall-text {
-        font-size: 0.925rem;
-    } */
-    /* div.wall-head {
-        font-size: 3.24469rem;
-    } */
     span.wall-num {
         font-size: 4.54469rem;
     }
 }
 
+
+
 @media screen and (max-width: 500px) {
+    section.wall {
+        height: 100vh;
+        padding: 35vh 2.5rem;
+    }
     div.wall-head {
         color: #E8E8E8;
         text-align: center;
         font-family: Raleway;
-        font-size: calc(var(--wall-head-font-size) * 1.70681);
+        font-size: calc(0.9rem + 1vw);
         font-style: normal;
         font-weight: 800;
         line-height: normal;
         letter-spacing: 0.05119rem;
+        margin-bottom: 1.5rem;
+    }
+    div.wall-text {
+        color: #FFF;
+        text-align: justify;
+        font-family: Montserrat;
+        font-size: 0.725rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.25rem; /* 180% */
+        letter-spacing: 0.0125rem;
+    }
+    span.wall-num {
+        font-size: calc(1.4rem + 1vw);
     }
 }
 
