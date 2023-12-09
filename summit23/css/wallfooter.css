@@ -6,7 +6,7 @@
 
 /* wall section css start */
 section.wall {
-    --wall-head-font-size:16px;
+    --wall-head-font-size: 16px;
     background-size: cover;
     background-image: url("../media/summit-main.png");
     background-repeat: no-repeat;
@@ -69,6 +69,7 @@ span.wall-num {
         height: 100vh;
         padding: 35vh 2.5rem;
     }
+
     div.wall-head {
         color: #E8E8E8;
         text-align: center;
@@ -80,6 +81,7 @@ span.wall-num {
         letter-spacing: 0.05119rem;
         margin-bottom: 1.5rem;
     }
+
     div.wall-text {
         color: #FFF;
         text-align: justify;
@@ -87,9 +89,11 @@ span.wall-num {
         font-size: 0.725rem;
         font-style: normal;
         font-weight: 400;
-        line-height: 1.25rem; /* 180% */
+        line-height: 1.25rem;
+        /* 180% */
         letter-spacing: 0.0125rem;
     }
+
     span.wall-num {
         font-size: calc(1.4rem + 1vw);
     }
@@ -180,7 +184,7 @@ h2.footer-right-head {
     font-weight: 600;
     line-height: normal;
     letter-spacing: 0.15rem;
-    margin-bottom: 2.5rem;
+    margin-bottom: 1.5rem;
 }
 
 form.footer-form {
@@ -189,39 +193,48 @@ form.footer-form {
     gap: 0.5rem;
 }
 
-form.footer-form>div {
-    border-bottom: 0.03125rem solid #949494;
+div.footer-input>textarea:focus,
+div.footer-input>input:focus {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #D99343;
 }
 
-div.footer-input>label {
-    display: inline-block;
-    padding-bottom: 0.25rem;
-
-    color: #949494;
-    font-family: Raleway;
-    font-size: 0.9375rem;
+div.footer-input>input {
+    border: 0;
+    border-bottom: 1px solid #555;
+    background: transparent;
+    width: 100%;
+    padding: 8px 0 5px 0;
+    font-family: 'Raleway';
     font-style: normal;
     font-weight: 500;
-    line-height: normal;
-    letter-spacing: 0.1125rem;
-}
-
-textarea:focus,
-input:focus {
-    outline: none;
-}
-
-div.footer-input>input,
-div.footer-input>textarea {
-    background-color: #000000;
+    font-size: 15px;
+    line-height: 18px;
+    /* text-align: center; */
+    letter-spacing: 0.12em;
     color: #949494;
-    border: none;
+    transition: 0.4s;
 }
 
 div.footer-input>textarea {
-    resize: none;
-    width: 100%;
+    border: none;
     overflow: hidden;
+
+    border-bottom: 1px solid #555;
+    background: transparent;
+    width: 100%;
+    padding: 8px 0 5px 0;
+    height: 100px;
+    resize: none;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.12em;
+    color: #949494;
+    transition: 0.4s;
 }
 
 form.footer-form>button {
@@ -252,15 +265,18 @@ form.footer-form>button:hover {
         padding: 0 3rem;
         padding-left: 4rem;
     }
+
     div.footer-left {
         padding: 0 3rem;
     }
 }
+
 @media (max-width:750px) {
     div.footer-right {
         padding: 0 1.5rem;
         padding-left: 4rem;
     }
+
     div.footer-left {
         padding: 0 1.5rem;
     }
@@ -290,6 +306,7 @@ hr.mobile-separation {
     div.footer-left>h2 {
         text-align: center;
     }
+
     h2.footer-right-head {
         text-align: center;
     }
@@ -312,6 +329,7 @@ hr.mobile-separation {
     form.footer-form>button {
         align-self: center;
     }
+
     hr.mobile-separation {
         display: block;
         width: 70%;
@@ -338,12 +356,14 @@ hr.mobile-separation {
         grid-row-start: 1;
         grid-row-end: 2;
     }
+
     div.two {
         grid-column-start: 1;
         grid-column-end: 2;
         grid-row-start: 2;
         grid-row-end: 3;
     }
+
     div.three {
         grid-column-start: 2;
         grid-column-end: 3;
@@ -360,18 +380,22 @@ hr.mobile-separation {
 }
 
 @media (max-width:500px) {
-    div.footer-input > label {
+    div.footer-input>label {
         font-size: 0.8rem;
     }
+
     div.footer-left-contacts {
         padding-left: 0.5rem;
     }
+
     div.footer-contact {
         gap: 0.35rem;
     }
+
     div.contact-text {
         font-size: 0.8rem;
     }
+
     img.contact-type-img {
         height: 0.85rem;
         width: 0.85rem;
@@ -384,9 +408,10 @@ hr.mobile-separation {
         display: flex;
         padding-left: 2rem;
     }
+
     div.footer-left-head {
         margin-bottom: 2rem;
     }
 }
-/* footer section css end */
 
+/* footer section css end */
