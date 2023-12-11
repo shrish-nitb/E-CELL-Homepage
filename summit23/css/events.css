@@ -1,4 +1,8 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&family=Raleway:wght@200;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&family=Raleway:wght@200;300;400;500;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800&display=swap');
 
 ::-webkit-scrollbar{
     width: 0;
@@ -14,8 +18,31 @@
     font-size: 16px; /* Default root font size */
   }
   
+@media screen and (max-width: 600px) {
+    :root {
+      font-size: 10px; /* Adjust root font size for small screens */
+    }
+  }
+  
+  /* Media query for medium screens */
+  @media screen and (min-width: 601px) and (max-width: 1524px) {
+    :root {
+      font-size: 16px; /* Adjust root font size for medium screens */
+    }
+  }
+  
+  /* Media query for large screens */
+  @media screen and (min-width: 1525px) {
+    :root {
+      font-size: 20px; /* Adjust root font size for large screens */
+    }
+  }
   /* Media query for small screens */
-
+  @media screen and (max-width: 400px) {
+    :root {
+      font-size: 8px; /* Adjust root font size for small screens */
+    }
+  }
   
   /* Your other styles using rem units */
   body {
@@ -141,25 +168,9 @@ a{
     border-radius: 10px;
     background-color: #FD8900;
 }
-@media screen and (max-width: 600px) {
-    :root {
-      font-size: 10px; /* Adjust root font size for small screens */
-    }
-  }
-  
-  /* Media query for medium screens */
-  @media screen and (min-width: 601px) and (max-width: 1524px) {
-    :root {
-      font-size: 16px; /* Adjust root font size for medium screens */
-    }
-  }
-  
-  /* Media query for large screens */
-  @media screen and (min-width: 1525px) {
-    :root {
-      font-size: 20px; /* Adjust root font size for large screens */
-    }
-  }
+
+
+
 
  
 
@@ -194,5 +205,28 @@ a{
     .info-img{
         width: 100%;
     }
-    
+}
+
+@media screen and (max-width:500px){
+    .side-bar{
+       padding: 0;
+    }
+    .list-item{
+        margin: 0 0.3rem;
+        text-align: justify;
+    }
+    .maindiv{
+        width: max-content;
+        /* overflow-x: hidden; */
+    }
+    .head1{
+        font-size: 1rem;
+    }
+    .head2{
+        font-size: 1.3rem;
+    }
+    :root{
+        font-size: 8px;
+    }
+
 }
