@@ -66,7 +66,7 @@ a{
 }
 .side-bar{
     width: 15%;
-    height: 80vh;
+    height: 90vh;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -139,8 +139,6 @@ a{
 
 .info-con-par{
    width: 50%;
-  
-  
 }
 
 .info-con-1{
@@ -181,7 +179,7 @@ a{
         width: max-content;
       }
   }
-  @media screen and (max-width:1000px) {
+  @media screen and (max-width:1000px){
     .info-par{
         flex-direction: column;
     }

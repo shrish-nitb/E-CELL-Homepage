@@ -1,7 +1,7 @@
 const list=document.querySelectorAll('.list-par');
 const names=document.querySelectorAll('.list-item');
 const dot=document.querySelectorAll('.dot')
-// console.log(names);
+console.log(names);
 // console.log(dot[0]);
 
 let k=0;
@@ -26,14 +26,12 @@ const help=()=>{
             dot[idx].style.backgroundColor="#C5C5C5";
          }
     });
-   // console.log("change color of "+k);
 }
 
 
 // document.addEventListener("DOMContentLoaded", function () {
 //     const listItems = document.querySelectorAll('.list-item');
 //     const secHolder = document.querySelector('.sec-holder');
-   
 //     listItems.forEach((item) => {
 //         item.addEventListener('click', (e) => {
 //             e.preventDefault();
@@ -52,9 +50,9 @@ const help=()=>{
 const sections=document.querySelectorAll('.sec');
 sections.forEach((element,idx)=>{
     element.addEventListener('mouseover',()=>{
-  //      console.log("mouse over "+idx);
         k=idx;
         help();
+        console.log(k);
     })
 })
 // console.log(sections);
@@ -83,14 +81,12 @@ sections.forEach((element,idx)=>{
 document.querySelectorAll('.side-bar a').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
         e.preventDefault();
-
         const targetId = this.getAttribute('href').substring(1);
         const targetElement = document.getElementById(targetId);
-
+        const height=window.innerHeight+window.innerHeight/2.4;
         if (targetElement) {
-            // Scroll to the target element within maindiv
             document.querySelector('.maindiv').scrollTo({
-                top: targetElement.offsetTop-60,
+                top: targetElement.offsetTop-height,
                 behavior: 'smooth'
             });
         }
