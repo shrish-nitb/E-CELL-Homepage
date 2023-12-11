@@ -207,26 +207,35 @@ a{
     }
 }
 
-@media screen and (max-width:500px){
+@media screen and (max-width:501px){
     .side-bar{
-       padding: 0;
+       display: none;
     }
+    
     .list-item{
         margin: 0 0.3rem;
         text-align: justify;
     }
     .maindiv{
         width: max-content;
+        height: max-content;
+        overflow-y: visible;
         /* overflow-x: hidden; */
     }
+    .parent{
+        height: max-content;
+    }
     .head1{
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
     .head2{
-        font-size: 1.3rem;
+        font-size: 2rem;
     }
     :root{
         font-size: 8px;
     }
-
+    .maindiv>div{
+        margin-top: 1rem;
+        padding: 0 0.8rem;
+    }
 }
