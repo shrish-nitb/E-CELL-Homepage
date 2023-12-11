@@ -134,11 +134,13 @@ a{
 
 .info-img{
    width: 50%;
-   height: 20rem;
+   height: 18rem;
 }
 
 .info-con-par{
    width: 50%;
+  
+  
 }
 
 .info-con-1{
@@ -150,7 +152,7 @@ a{
     line-height: normal;
 }
 
-.info-con-2{
+/* .info-con-2{
     margin-top: 0.6rem;
     color: #727272;
     font-family: Inter;
@@ -158,7 +160,7 @@ a{
     font-style: italic;
     font-weight: 800;
     line-height: normal;
-}
+} */
 
 .maindiv::-webkit-scrollbar{
     width: 0.3rem;
