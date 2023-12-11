@@ -62,7 +62,7 @@ nav{
   align-items: right;
   height: 132px;
   font-family: 'Raleway', sans-serif;
-  background-color:black;
+  background-color: transparent;
   width: 100vw;
 }
 #logo{
@@ -334,7 +334,8 @@ opacity: 0;
   position: relative;
   z-index: 0;
   background-image: url("about.png");
-  background-size: contain;
+  background-position: center bottom;
+background-size: cover;
   background-repeat: no-repeat;
   padding-top: 6rem;
   padding-bottom: 12rem;
