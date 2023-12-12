@@ -39,9 +39,11 @@
   }
   /* Media query for small screens */
   @media screen and (max-width: 400px) {
+    
     :root {
       font-size: 8px; /* Adjust root font size for small screens */
     }
+    
   }
   
   /* Your other styles using rem units */
@@ -147,7 +149,9 @@ a{
     font-size: 1.2rem;
     font-style: normal;
     font-weight: 800;
-    line-height: normal;
+    line-height: 1.7;
+    text-align: justify;
+    padding-left:30px;
 }
 
 /* .info-con-2{
@@ -238,4 +242,7 @@ a{
         margin-top: 1rem;
         padding: 0 0.8rem;
     }
+    .info-con-1{
+        padding-left: 0px;
+     }
 }
