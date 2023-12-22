@@ -189,7 +189,7 @@ nav {
 
 /* nav css ends here  */
 #wall {
-  background-image: url("Group\ 3021.png");
+  background-image: url("Group\ 3021.webp");
   background-repeat: no-repeat;
   background-size: cover;
   height: 48vh;
@@ -405,7 +405,7 @@ div.button {
   box-sizing: border-box;
   position: relative;
   padding-top: 2rem;
-  background-image: url("Group\ 3025.png");
+  background-image: url("Group\ 3025.webp");
   background-repeat: no-repeat;
   /* background-attachment: fixed; simple parallax*/
   width: 100%;
@@ -425,7 +425,7 @@ div.transition-layer {
   /* padding-left: 139px; */
   height: 650px;
   width: 100%;
-  background: url(guest-bg.png);
+  background: url(guest-bg.webp);
   box-sizing: border-box;
   display: flex;
   flex-wrap: wrap;
@@ -678,7 +678,7 @@ letter-spacing: 0.075rem;
 
 #events {
   height: 113vh;
-  background: url(./past\ events\ bg.png);
+  background: url(./past\ events\ bg.webp);
   background-size: cover;
   background-position: center center;
   padding: 11rem 0 0 0;
@@ -700,12 +700,11 @@ letter-spacing: 0.075rem;
   
   box-sizing: border-box;
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgb(0 0 0 / 0%)),
-    url(location-bg.png);
+    url(location-bg.webp);
     height: 310px;
     background-size: cover;
     background-position: center center;
     padding-block-start: 132px;
-}
 }
 
 #address-line {
@@ -1081,7 +1080,7 @@ iframe{
   font-size: 1em !important;
 }
 /* .about-us-mbl{
-  background-image: url(./about\ us\ mobile\ \(1\).png) !important;
+  background-image: url(./about\ us\ mobile\ \(1\).webp) !important;
   background-repeat: no-repeat !important;
   background-size: cover !important;
   height: 400px !important;
@@ -1136,7 +1135,7 @@ iframe{
   /* top:48px!important; */
   /* top: 19px!important; */
 
-  background-image: url(1.png) !important;
+  background-image: url(1.webp) !important;
   border-radius: 5.88243px !important;
 }
 
@@ -1149,7 +1148,7 @@ iframe{
   left: 12% !important;
   /* top: 19px!important; */
 
-  background-image: url(2.png) !important;
+  background-image: url(2.webp) !important;
   border-radius: 5.88243px !important;
 }
 
@@ -1161,12 +1160,12 @@ iframe{
   margin-bottom: 49.58px !important;
   left: 12% !important;
 
-  background-image: url(3.png) !important;
+  background-image: url(3.webp) !important;
   border-radius: 5.88243px !important;
 }
 
 .mobevents {
-  background-image: url(past\ event\ mobile\ view\ bg.png) !important;
+  background-image: url(past\ event\ mobile\ view\ bg.webp) !important;
   height: 173vh !important;
  background-attachment: fixed !important;
   background-repeat: no-repeat !important;

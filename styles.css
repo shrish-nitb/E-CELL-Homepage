@@ -201,7 +201,7 @@ opacity: 0;
 
 /* nav css ends here  */
 #wall {
-  background-image: url("main.png"), linear-gradient(315deg, rgb(19, 15, 64) 0%, rgb(0, 0, 0) 50%);
+  background-image: url("main.webp"), linear-gradient(315deg, rgb(19, 15, 64) 0%, rgb(0, 0, 0) 50%);
   background-repeat: no-repeat;
   min-height: 52rem; 
 }
@@ -333,7 +333,7 @@ opacity: 0;
   box-sizing: border-box;
   position: relative;
   z-index: 0;
-  background-image: url("about.png");
+  background-image: url("about.webp");
   background-position: center bottom;
 background-size: cover;
   background-repeat: no-repeat;
@@ -346,7 +346,7 @@ background-size: cover;
     /* padding-left: 139px; */
     height: 673px;
     width: 100%;
-    background: url(guest-bg.png);
+    background: url(guest-bg.webp);
     box-sizing: border-box;
     display: flex;
     flex-wrap: wrap;
@@ -367,7 +367,7 @@ background-size: cover;
 
 
 .location-2{
-  background-image: url("./assets/glimpse/manit\ image\ 1.png");
+  background-image: url("./assets/glimpse/manit\ image\ 1.webp");
   background-position: center center;
   background-repeat: no-repeat;
   padding: 200px 0;
@@ -774,7 +774,7 @@ input:focus, textarea:focus, select:focus{
 
 #events{
   /* min-height: 123vh; */
-  background: url(./past\ events\ bg.png);
+  background: url(./past\ events\ bg.webp);
   background-size: cover;
   background-position: center center;
   padding-bottom: 8rem;
@@ -796,7 +796,7 @@ input:focus, textarea:focus, select:focus{
   height: 526px;
   box-sizing: border-box;
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgb(0 0 0 / 0%)),
-    url(location-bg.png);
+    url(location-bg.webp);
   padding-top: 144px;
 }
 #address-line {

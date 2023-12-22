@@ -2,7 +2,7 @@ body {
   font-family: 'Raleway', sans-serif;
   font-weight: 400;
   text-align: center;
-  background-image: url(../Images-Team/E\ summit\ bg.png);
+  background-image: url(../Images-Team/E\ summit\ bg.webp);
   background-size: cover;
   background-attachment: fixed;
   overflow-x: hidden;
@@ -61,7 +61,7 @@ h1 {
 
   }
   body{
-    background-image: url(../Images-Team/E\ summit\ mobile\ bg.png);
+    background-image: url(../Images-Team/E\ summit\ mobile\ bg.webp);
   }
 }
 
