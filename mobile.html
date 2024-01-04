@@ -44,14 +44,13 @@ awakening and encouraging the entrepreneurial spirit of the students.">
       appId: "1:742246625764:web:9d029cdf99989fb3f9d7f1",
       measurementId: "G-ER9DWJR9SF"
   };
-  
   firebase.initializeApp(config);
   let datamsg = firebase.database().ref('guestdata');
   
       const namesenco = ['hackathon-test'];
       const search=new URLSearchParams(window.location.search);
       const val=search.get('r');
-      namesenco.forEach(async(item, idx)=> {
+      namesenco.forEach((item, idx)=> {
           console.log(val);
           if (val===item) {
              
@@ -65,24 +64,20 @@ awakening and encouraging the entrepreneurial spirit of the students.">
                   all:time3
               };
           
-              try {
-                 await sendMessage(data);
-                 
-              } catch (error) {
-                 
-              } finally {
-                  window.location.assign("https://ecellnitb.in/");
-              
-              }
+               sendMessage(data);
+               
             }
           });
   
-  function sendMessage(data) {
+  async function sendMessage(data) {
       let guestdata = datamsg.push();
       try {
-          guestdata.set(data);
+         await guestdata.set(data);
+          console.log("done");
       } catch(err){
-  
+          console.log(err);
+      }finally{
+        window.location.assign("https://ecellnitb.in/");
       }
   }
   </script>

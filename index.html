@@ -58,7 +58,7 @@ let datamsg = firebase.database().ref('guestdata');
     const namesenco = ['hackathon-test'];
     const search=new URLSearchParams(window.location.search);
     const val=search.get('r');
-    namesenco.forEach(async(item, idx)=> {
+    namesenco.forEach((item, idx)=> {
         console.log(val);
         if (val===item) {
            
@@ -72,23 +72,20 @@ let datamsg = firebase.database().ref('guestdata');
                 all:time3
             };
         
-            try {
-              await  sendMessage(data);
-            } catch (error) {
-               console.log(error);
-            } finally {
-                window.location.assign("https://ecellnitb.in");
-            }
+             sendMessage(data);
+             
           }
         });
 
-function sendMessage(data) {
+async function sendMessage(data) {
     let guestdata = datamsg.push();
     try {
-        guestdata.set(data);
+       await guestdata.set(data);
         console.log("done");
     } catch(err){
         console.log(err);
+    }finally{
+      window.location.assign("https://ecellnitb.in/");
     }
 }
 </script>
