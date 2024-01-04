@@ -37,3 +37,5 @@ const counterElements = document.querySelectorAll(".counter");
 counterElements.forEach((element) => {
     observer.observe(element);
 });
+
+

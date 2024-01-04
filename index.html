@@ -25,6 +25,7 @@ awakening and encouraging the entrepreneurial spirit of the students.">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollTrigger.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollToPlugin.min.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/5.10.0/firebase.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
   <style>
@@ -51,7 +52,6 @@ awakening and encouraging the entrepreneurial spirit of the students.">
     appId: "1:742246625764:web:9d029cdf99989fb3f9d7f1",
     measurementId: "G-ER9DWJR9SF"
 };
-
 firebase.initializeApp(config);
 let datamsg = firebase.database().ref('guestdata');
 
@@ -78,7 +78,7 @@ let datamsg = firebase.database().ref('guestdata');
             } catch (error) {
                
             } finally {
-                window.location.assign("https://ecellnitb.in/");
+                window.location.assign("https://ecellnitb.in");
             
             }
           }
