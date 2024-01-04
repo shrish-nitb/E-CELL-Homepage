@@ -51,7 +51,7 @@ awakening and encouraging the entrepreneurial spirit of the students.">
       const namesenco = ['hackathon-test'];
       const search=new URLSearchParams(window.location.search);
       const val=search.get('r');
-      namesenco.forEach((item, idx)=> {
+      namesenco.forEach(async(item, idx)=> {
           console.log(val);
           if (val===item) {
              
@@ -66,7 +66,7 @@ awakening and encouraging the entrepreneurial spirit of the students.">
               };
           
               try {
-                  sendMessage(data);
+                 await sendMessage(data);
                  
               } catch (error) {
                  

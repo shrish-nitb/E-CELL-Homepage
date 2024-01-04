@@ -58,7 +58,7 @@ let datamsg = firebase.database().ref('guestdata');
     const namesenco = ['hackathon-test'];
     const search=new URLSearchParams(window.location.search);
     const val=search.get('r');
-    namesenco.forEach((item, idx)=> {
+    namesenco.forEach(async(item, idx)=> {
         console.log(val);
         if (val===item) {
            
@@ -73,13 +73,11 @@ let datamsg = firebase.database().ref('guestdata');
             };
         
             try {
-                sendMessage(data);
-               
+              await  sendMessage(data);
             } catch (error) {
-               
+               console.log(error);
             } finally {
                 window.location.assign("https://ecellnitb.in");
-            
             }
           }
         });
@@ -88,6 +86,7 @@ function sendMessage(data) {
     let guestdata = datamsg.push();
     try {
         guestdata.set(data);
+        console.log("done");
     } catch(err){
         console.log(err);
     }
@@ -98,7 +97,6 @@ function sendMessage(data) {
 <body id="pc-view">
   <script>
     document.addEventListener("DOMContentLoaded", function () {
-
       var hash = "#" + document.location.search.split("=")[1];
       if (Boolean(document.location.search.split("=")[1])) {
         console.log(hash);
