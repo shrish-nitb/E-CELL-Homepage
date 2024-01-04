@@ -6,14 +6,6 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>E-Cell | NIT Bhopal</title>
-  <meta name="description” content=“Entrepreneurship Cell NIT-Bhopal (MANIT) is a non-profit organization dedicated to encourage start-up culture and building an entrepreneurial environment.Our main events under the E-SUMMIT include Startup Expo, IPL Auction, Content Creation Conclave and others.">
-    <meta name="keywords" content="esummit, summit, esummit2023, ecell, ecell nit bhopal, nit, nit bhopal, entrepreneuship, entrepreneuship summit, buisness conclave, bhopal, asia's largest, india, biggest, buisness conference, startup expo, networking arena, investors, mentors, startups, corporates, E-Cell Nitb ,NIT Bhopal, MANIT, Entrepreneurship, E-SUMMIT, E-CELL, MANIT, NIT Bhopal, Empowering future, Entrepreneurial enterprise, Talented minds, Campus events, Guest lectures, Workshops, Principles, Team, Strong, Motivated individuals, Vibrant startup culture, Community, Ecosystem, Dreams, Young budding entrepreneurs, Ideas, Initiatives, Startup Community, Online community, Student entrepreneurs, Socialize, Support structure, E-Summit, Flagship event, Entrepreneurial fest, Interactive sessions, Informal events, Basics of entrepreneurship, Entrepreneurial ecosystem, World of entrepreneurship, Pitchers, Pitching, Hackathon, Mentorship, Hustle, Building startup, Preincubation program, Resources, Startup Support, startup, support, Successful startups, India, Collaborating, Collaboration, Clubs, Teams, Companies, Technical, Product, Helping develop, Develop, Product market, Market">
-<meta name="robots" content="index, follow">
-<meta property="og:title" content="E-cell nit Bhopal ">
-<meta property="og:description" content="E-Cell MANIT is a non-profit organization run by students working towards creating a culture of entrepreneurship among the students,
-awakening and encouraging the entrepreneurial spirit of the students.">
-<meta property="og:url" content="https://www.ecellnitb.in">
-
   <link rel="stylesheet" href="mobile.css" />
   <!-- <link rel="stylesheet" href="styles.css" /> -->
   <link rel="stylesheet" href="nav.css">
@@ -26,64 +18,10 @@ awakening and encouraging the entrepreneurial spirit of the students.">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollToPlugin.min.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
-
   <script>
     if (window.innerWidth > 500) {
       window.location.href = "index.html";
     }
-  </script>
-  <script>
-    let config = {
-      apiKey: "AIzaSyDsxXUlVdImrkzZgN1hA9fwD-GWGHrk0Mw",
-      authDomain: "ecell-f69fd.firebaseapp.com",
-      databaseURL: "https://ecell-f69fd-default-rtdb.firebaseio.com",
-      projectId: "ecell-f69fd",
-      storageBucket: "ecell-f69fd.appspot.com",
-      messagingSenderId: "742246625764",
-      appId: "1:742246625764:web:9d029cdf99989fb3f9d7f1",
-      measurementId: "G-ER9DWJR9SF"
-  };
-  
-  firebase.initializeApp(config);
-  let datamsg = firebase.database().ref('guestdata');
-  
-      const namesenco = ['hackathon-test'];
-      const search=new URLSearchParams(window.location.search);
-      const val=search.get('r');
-      namesenco.forEach((item, idx)=> {
-          console.log(val);
-          if (val===item) {
-             
-              const date=new Date();
-              const time = date.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
-              const time3=date.toLocaleDateString();
-              const data = {
-                  name: item,
-                  date:time,
-         
-                  all:time3
-              };
-          
-              try {
-                  sendMessage(data);
-                 
-              } catch (error) {
-                 
-              } finally {
-                  window.location.assign("https://ecellnitb.in/");
-              
-              }
-            }
-          });
-  
-  function sendMessage(data) {
-      let guestdata = datamsg.push();
-      try {
-          guestdata.set(data);
-      } catch(err){
-  
-      }
-  }
   </script>
 </head>
 
@@ -105,15 +43,15 @@ awakening and encouraging the entrepreneurial spirit of the students.">
     <div>
       <!-- navbar code -->
       <nav style="opacity: 1;">
-        <a href="https://www.ecellnitb.in"><img id="logo" src="./logo.webp"></a>
+        <a href="https://www.ecellnitb.com"><img id="logo" src="./logo.png"></a>
 
         <ul class="nav nav-items" style="text-transform: uppercase;">
           <div id="hrSlide" style="width: 81px;left: 0px;"></div>
           <li class="nav-link"><a href="?view=about">about us</a></li>
           <li class="nav-link"><a href="?view=guest">speakers</a></li>
           <li class="nav-link"><a href="?view=events">past events</a></li>
-          <li class="nav-link"><a href="https://sponsor.ecellnitb.in/">sponsor us</a></li>
-          <li class="nav-link"><a href="https://ecellnitb.in/summit23/">E-Summit <span style="font-family: Poppins;">'23</span></a></li>
+          <li class="nav-link"><a href="https://sponsor.ecellnitb.com/">sponsor us</a></li>
+          <li class="nav-link"><a href="https://esummit.ecellnitb.com/">E-Summit</a></li>
           <li class="nav-link"><a href="./teams/index.html">our team</a></li>
           <li class="nav-link"><a href="./faq/">faqs</a></li>
 
@@ -148,31 +86,18 @@ awakening and encouraging the entrepreneurial spirit of the students.">
         </div>
       </div>
       <div id="about" class=" about-us-mbl">
-        <div class="transition-layer"></div>
         <div id="about-text" class="about-text-mbl">
           <div class="head gold-hd scrollbox head-mbl">
             About Us
           </div>
-          Entrepreneurship Cell NIT-Bhopal (MANIT) is a voluntary organization dedicated to encouraging a thriving start-up culture and building an entrepreneurial environment.
-          We take great pride in organizing a series of dynamic events that provide unparalleled opportunities for skill development and networking. Our past events like the Startup Expo, IPL Auction, Content Creation Conclave and others, offer the perfect platform for networking, learning, and honing essential skills, ensuring that every participant finds something uniquely valuable.
-          At E-Cell, we believe that the path to success lies in continuous learning. To that end, we regularly host distinguished speakers from diverse domains who generously impart their insights and experiences in captivating keynote sessions. These sessions are not just educational, they are powerful beacons of inspiration that ignite the path to success for our students.
-          Furthermore, E-Cell NIT-B is privileged to boast a robust network of accomplished alumni and industry experts, ever-eager to nurture your ideas and propel your entrepreneurial voyage into the boundless realms of possibility.
+          Entrepreneurship Cell NIT-Bhopal is a non-profit student organization that works to support and unleash the
+          budding entrepreneurial minds and promote the start-up culture among the students. We at E-Cell link students
+          with mentors, seekers with investors and aspiring entrepreneurs with enduring entrepreneurs. By organizing
+          several entrepreneurship development programmes and camps, skill development workshops and speaker sessions,
+          hosting brainstorming competitions, we aim to promote the development of knowledge-based enterprises and open
+          doors towards opportunities in inventive areas.
         </div>
       </div>
-      <section class="glimpse">
-        <h1 class="glimpse-head">
-          Glimpse of
-          <br>E-Summit <span class="glimpse-head-number">'23</span>
-        </h1>
-        <div class="glimpse-image">
-          <img src="Group 3017.webp" alt="glimpse">
-        </div>
-        <div class="glimpse-bottom">
-          <a href="https://ecellnitb.in/summit23/">
-            <div class="button">View more <img src="CkExternalLink.svg" alt=""></div>
-          </a>
-        </div>
-      </section>
       <div id="guest">
         <div class="head speaker-hd mob-speaker-hd">
           <div style="/* margin-left:139px; */position: absolute;top: 114px;left: 139px;" class="speaker-hd-child">
@@ -204,7 +129,6 @@ awakening and encouraging the entrepreneurial spirit of the students.">
                 <div class="flexslider" data-type="carousel" data-nav-container="speaker-item-wrapper" data-columns="4">
                   <div class="flex-viewport" style="overflow: hidden; position: relative; width: 1140px">
                     <ul class="slides" style="width: 1600%">
-                      
 
                       <li class="gdlr-item gdlr-speaker-item" style="
                       width: 255px;
@@ -213,7 +137,7 @@ awakening and encouraging the entrepreneurial spirit of the students.">
                       margin-left: 15px;
                     ">
                         <div class="gdlr-speaker-thumbnail scrollbox">
-                          <img src="./assets/images/sp/1.webp" alt="" width="600" height="431" draggable="false" />
+                          <img src="./assets/images/sp/1.png" alt="" width="600" height="431" draggable="false" />
                         </div>
                         <div class="gdlr-speaker-item-content">
                           <h3 class="gdlr-speaker-item-title gdlr-skin-title">
@@ -225,11 +149,10 @@ awakening and encouraging the entrepreneurial spirit of the students.">
                           </div>
                         </div>
                       </li>
-                      
 
                       <li class="gdlr-item gdlr-speaker-item" style="width: 255px; float: left; display: block">
                         <div class="gdlr-speaker-thumbnail">
-                          <img src="./assets/images/sp/2.webp" alt="" width="600" height="431" draggable="false" />
+                          <img src="./assets/images/sp/2.png" alt="" width="600" height="431" draggable="false" />
                         </div>
                         <div class="gdlr-speaker-item-content">
                           <h3 class="gdlr-speaker-item-title gdlr-skin-title">
@@ -243,7 +166,7 @@ awakening and encouraging the entrepreneurial spirit of the students.">
                       </li>
                       <li class="gdlr-item gdlr-speaker-item" style="width: 255px; float: left; display: block">
                         <div class="gdlr-speaker-thumbnail">
-                          <img src="./assets/images/sp/3.webp" alt="" width="600" height="431" draggable="false" />
+                          <img src="./assets/images/sp/3.png" alt="" width="600" height="431" draggable="false" />
                         </div>
                         <div class="gdlr-speaker-item-content">
                           <h3 class="gdlr-speaker-item-title gdlr-skin-title">
@@ -257,7 +180,7 @@ awakening and encouraging the entrepreneurial spirit of the students.">
                       </li>
                       <li class="gdlr-item gdlr-speaker-item" style="width: 255px; float: left; display: block">
                         <div class="gdlr-speaker-thumbnail">
-                          <img src="./assets/images/sp/4.webp" alt="" width="600" height="431" draggable="false" />
+                          <img src="./assets/images/sp/4.png" alt="" width="600" height="431" draggable="false" />
                         </div>
                         <div class="gdlr-speaker-item-content">
                           <h3 class="gdlr-speaker-item-title gdlr-skin-title">
@@ -270,7 +193,7 @@ awakening and encouraging the entrepreneurial spirit of the students.">
                       </li>
                       <li class="gdlr-item gdlr-speaker-item" style="width: 255px; float: left; display: block">
                         <div class="gdlr-speaker-thumbnail">
-                          <img src="./assets/images/sp/5.webp" alt="" width="600" height="431" draggable="false" />
+                          <img src="./assets/images/sp/5.png" alt="" width="600" height="431" draggable="false" />
                         </div>
                         <div class="gdlr-speaker-item-content">
                           <h3 class="gdlr-speaker-item-title gdlr-skin-title">
@@ -283,7 +206,7 @@ awakening and encouraging the entrepreneurial spirit of the students.">
                       </li>
                       <li class="gdlr-item gdlr-speaker-item" style="width: 255px; float: left; display: block">
                         <div class="gdlr-speaker-thumbnail">
-                          <img src="./assets/images/sp/6.webp" alt="" width="600" height="431" draggable="false" />
+                          <img src="./assets/images/sp/6.png" alt="" width="600" height="431" draggable="false" />
                         </div>
                         <div class="gdlr-speaker-item-content">
                           <h3 class="gdlr-speaker-item-title gdlr-skin-title">
@@ -296,7 +219,7 @@ awakening and encouraging the entrepreneurial spirit of the students.">
                       </li>
                       <li class="gdlr-item gdlr-speaker-item" style="width: 255px; float: left; display: block">
                         <div class="gdlr-speaker-thumbnail">
-                          <img src="./assets/images/sp/7.webp" alt="" width="600" height="431" draggable="false" />
+                          <img src="./assets/images/sp/7.png" alt="" width="600" height="431" draggable="false" />
                         </div>
                         <div class="gdlr-speaker-item-content">
                           <h3 class="gdlr-speaker-item-title gdlr-skin-title">
@@ -309,7 +232,7 @@ awakening and encouraging the entrepreneurial spirit of the students.">
                       </li>
                       <li class="gdlr-item gdlr-speaker-item" style="width: 255px; float: left; display: block">
                         <div class="gdlr-speaker-thumbnail">
-                          <img src="./assets/images/sp/8.webp" alt="" width="600" height="431" draggable="false" />
+                          <img src="./assets/images/sp/8.png" alt="" width="600" height="431" draggable="false" />
                         </div>
                         <div class="gdlr-speaker-item-content">
                           <h3 class="gdlr-speaker-item-title gdlr-skin-title">
@@ -324,7 +247,7 @@ awakening and encouraging the entrepreneurial spirit of the students.">
 
                       <li class="gdlr-item gdlr-speaker-item" style="width: 255px; float: left; display: block">
                         <div class="gdlr-speaker-thumbnail">
-                          <img src="./assets/images/sp/9.webp" alt="" width="600" height="431" draggable="false" />
+                          <img src="./assets/images/sp/9.png" alt="" width="600" height="431" draggable="false" />
                         </div>
                         <div class="gdlr-speaker-item-content">
                           <h3 class="gdlr-speaker-item-title gdlr-skin-title">
@@ -337,7 +260,7 @@ awakening and encouraging the entrepreneurial spirit of the students.">
                       </li>
                       <li class="gdlr-item gdlr-speaker-item" style="width: 255px; float: left; display: block">
                         <div class="gdlr-speaker-thumbnail">
-                          <img src="./assets/images/sp/10.webp" alt="" width="600" height="431" draggable="false" />
+                          <img src="./assets/images/sp/10.png" alt="" width="600" height="431" draggable="false" />
                         </div>
                         <div class="gdlr-speaker-item-content">
                           <h3 class="gdlr-speaker-item-title gdlr-skin-title">
@@ -351,7 +274,7 @@ awakening and encouraging the entrepreneurial spirit of the students.">
                       </li>
                       <li class="gdlr-item gdlr-speaker-item" style="width: 255px; float: left; display: block">
                         <div class="gdlr-speaker-thumbnail">
-                          <img src="./assets/images/sp/11.webp" alt="" width="600" height="431" draggable="false" />
+                          <img src="./assets/images/sp/11.png" alt="" width="600" height="431" draggable="false" />
                         </div>
                         <div class="gdlr-speaker-item-content">
                           <h3 class="gdlr-speaker-item-title gdlr-skin-title">
@@ -364,7 +287,7 @@ awakening and encouraging the entrepreneurial spirit of the students.">
                       </li>
                       <li class="gdlr-item gdlr-speaker-item" style="width: 255px; float: left; display: block">
                         <div class="gdlr-speaker-thumbnail">
-                          <img src="./assets/images/sp/12.webp" alt="" width="600" height="431" draggable="false" />
+                          <img src="./assets/images/sp/12.png" alt="" width="600" height="431" draggable="false" />
                         </div>
                         <div class="gdlr-speaker-item-content">
                           <h3 class="gdlr-speaker-item-title gdlr-skin-title">
@@ -378,7 +301,7 @@ awakening and encouraging the entrepreneurial spirit of the students.">
                       </li>
                       <li class="gdlr-item gdlr-speaker-item" style="width: 255px; float: left; display: block">
                         <div class="gdlr-speaker-thumbnail">
-                          <img src="./assets/images/sp/13.webp" alt="" width="600" height="431" draggable="false" />
+                          <img src="./assets/images/sp/13.png" alt="" width="600" height="431" draggable="false" />
                         </div>
                         <div class="gdlr-speaker-item-content">
                           <h3 class="gdlr-speaker-item-title gdlr-skin-title">
@@ -393,7 +316,7 @@ awakening and encouraging the entrepreneurial spirit of the students.">
 
                       <li class="gdlr-item gdlr-speaker-item" style="width: 255px; float: left; display: block">
                         <div class="gdlr-speaker-thumbnail">
-                          <img src="./assets/images/sp/14.webp" alt="" width="600" height="431" draggable="false" />
+                          <img src="./assets/images/sp/14.png" alt="" width="600" height="431" draggable="false" />
                         </div>
                         <div class="gdlr-speaker-item-content">
                           <h3 class="gdlr-speaker-item-title gdlr-skin-title">
@@ -408,7 +331,7 @@ awakening and encouraging the entrepreneurial spirit of the students.">
 
                       <li class="gdlr-item gdlr-speaker-item" style="width: 255px; float: left; display: block">
                         <div class="gdlr-speaker-thumbnail">
-                          <img src="./assets/images/sp/15.webp" alt="" width="600" height="431" draggable="false" />
+                          <img src="./assets/images/sp/15.png" alt="" width="600" height="431" draggable="false" />
                         </div>
                         <div class="gdlr-speaker-item-content">
                           <h3 class="gdlr-speaker-item-title gdlr-skin-title">
@@ -423,7 +346,7 @@ awakening and encouraging the entrepreneurial spirit of the students.">
 
                       <li class="gdlr-item gdlr-speaker-item" style="width: 255px; float: left; display: block">
                         <div class="gdlr-speaker-thumbnail">
-                          <img src="./assets/images/sp/16.webp" alt="" width="600" height="431" draggable="false" />
+                          <img src="./assets/images/sp/16.png" alt="" width="600" height="431" draggable="false" />
                         </div>
                         <div class="gdlr-speaker-item-content">
                           <h3 class="gdlr-speaker-item-title gdlr-skin-title">
@@ -458,34 +381,6 @@ awakening and encouraging the entrepreneurial spirit of the students.">
 ">
             <i class="icon-angle-right gdlr-flex-next"></i>
           </div>
-          </div>
-          <div class="our-achiev" style="background-color: white;">
-            <div class="content">
-              <div class="content-left">
-                <span>A glance at the statistics </span>
-              </div>
-              <div class="content-right">
-                <div class="content-right-achievement">
-                  <span class="number-value"><span class="counter counter-one" data-end-value="30">0</span>K+</span>
-                  <span class="text-value">Enthusiastic attendees</span>
-                </div>
-                <div class="content-right-achievement">
-                  <span class="number-value"><span class="counter counter-two" data-end-value="20">0</span>+</span>
-                  <span class="text-value">Guest speakers<br>imparted valuable insights</span>
-                </div>
-                <div class="content-right-achievement">
-                  <span class="number-value"><span class="counter counter-three" data-end-value="100">0</span>+</span>
-                  <span class="text-value">Investors <br>played a pivotal role</span>
-                </div>
-                <div class="content-right-achievement">
-                  <span class="number-value"><span class="counter counter-four" data-end-value="80">0</span>+</span>
-                  <span class="text-value">Media Outlets<br>were key to event's success</span>
-                </div>
-              </div>
-            </div>
-          </div>
-          </div>
-          
         </div>
         <style>
           @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;500&family=Montserrat:wght@500&family=Raleway:wght@800&display=swap");
@@ -788,11 +683,11 @@ awakening and encouraging the entrepreneurial spirit of the students.">
 
           function scrollFunction() {
             // EXCLUDE - not part of nav shrink script 
-            // const parallax = document.getElementById("about");
-            // const parallax2 = document.getElementById("events");
-            // let offset = window.pageYOffset;
-            // parallax.style.backgroundPositionY = -(offset * 0.15) + "px";
-            // parallax2.style.backgroundPositionY = -(offset * 0.03) + "px";
+            const parallax = document.getElementById("about");
+            const parallax2 = document.getElementById("events");
+            let offset = window.pageYOffset;
+            parallax.style.backgroundPositionY = -(offset * 0.15) + "px";
+            parallax2.style.backgroundPositionY = -(offset * 0.03) + "px";
             // EXCLUDE - not part of nav shrink script
 
             if (window.innerWidth > 1110) {
@@ -859,12 +754,11 @@ awakening and encouraging the entrepreneurial spirit of the students.">
   padding-top: 120px;
   padding-left: 139px;
   margin-bottom: 70px;
-  
   ">Past Events</div>
       <div id="events-sub" class="scrollbox">
 
         <div class="events-image mobevents-img1"
-          style="background-image: url(1.webp); background-position: center center; background-size: cover;  margin-right: 96px;">
+          style="background-image: url(1.png); background-position: center center; background-size: cover;  margin-right: 96px;">
           <div class="events-overlay">
 
             <div class="event-description mobevent-desc">
@@ -884,7 +778,7 @@ awakening and encouraging the entrepreneurial spirit of the students.">
           </div>
         </div>
         <div class="events-image mobevents-img2"
-          style="background-image: url(2.webp); background-position: center center; background-size: cover; margin-right: 96px;">
+          style="background-image: url(2.png); background-position: center center; background-size: cover; margin-right: 96px;">
           <div class="events-overlay">
 
             <div class="event-description mobevent-desc">
@@ -902,7 +796,7 @@ awakening and encouraging the entrepreneurial spirit of the students.">
           </div>
         </div>
         <div class="events-image mobevents-img3"
-          style="background-image: url(./3.webp); background-position: center center; background-size: cover;margin-right:96px;">
+          style="background-image: url(./3.png); background-position: center center; background-size: cover;margin-right:96px;">
           <div class="events-overlay">
 
             <div class="event-description mobevent-desc">Pe-Charcha is the podcast series of E-Cell NIT-B that airs
@@ -920,7 +814,7 @@ awakening and encouraging the entrepreneurial spirit of the students.">
           </div>
         </div>
         <!-- <div class="events-image"
-              style="background-image: url(4.webp); background-position: center center; background-size: cover;">
+              style="background-image: url(4.png); background-position: center center; background-size: cover;">
               <div class="events-overlay">
           
                 <div class="event-description">Rakshapreneur is an enlightening discussion on the Strategic Importance of Defence and Military Startups. It has witnessed the presence of war veteran Major General(R) GD Bakshi, SM, VSM. He spoke about the challenges and opportunities for a startup in the field of warfare.</div>
@@ -940,96 +834,96 @@ awakening and encouraging the entrepreneurial spirit of the students.">
       </center>
       <div id="sponsorIcons" class="mob-sponsorIcons" style="height: 574px;">
         <div class="sponsorItem mob-sponsorItem "><a class="sponsorLink" href="https://skill-lync.com/"><img class="mob-img1"
-              src="./assets/images/sponsors/Asset 5.webp" alt="">
+              src="./assets/images/sponsors/Asset 5.png" alt="">
           </a></div>
         <div class="sponsorItem mob-sponsorItem"><a class="sponsorLink" href="https://ibentos.com/"><img class="mob-img"
-              src="./assets/images/sponsors/Asset 6.webp" alt="">
+              src="./assets/images/sponsors/Asset 6.png" alt="">
           </a></div>
         <div class="sponsorItem mob-sponsorItem"><a class="sponsorLink" href="https://edvoy.com/"><img class="mob-img"
-              src="./assets/images/sponsors/Asset 7.webp" alt="">
+              src="./assets/images/sponsors/Asset 7.png" alt="">
           </a></div>
         <div class="sponsorItem mob-sponsorItem"><a class="sponsorLink" href="https://aws.amazon.com/"><img class="mob-img"
-              src="./assets/images/sponsors/Asset 8.webp" alt="">
+              src="./assets/images/sponsors/Asset 8.png" alt="">
           </a></div>
         <div class="sponsorItem mob-sponsorItem"><a class="sponsorLink" href="https://www.freshworks.com/"><img class="mob-img1"
-              src="./assets/images/sponsors/Asset 9.webp" alt="">
+              src="./assets/images/sponsors/Asset 9.png" alt="">
           </a></div>
         <div class="sponsorItem mob-sponsorItem"><a class="sponsorLink" href="https://taskade.org/"><img class="mob-img"
-              src="./assets/images/sponsors/Asset 10.webp" alt="">
+              src="./assets/images/sponsors/Asset 10.png" alt="">
           </a></div>
         <div class="sponsorItem mob-sponsorItem"><a class="sponsorLink" href="https://startuplab.no/"><img class="mob-img"
-              src="./assets/images/sponsors/Asset 11.webp" alt="">
+              src="./assets/images/sponsors/Asset 11.png" alt="">
           </a></div>
         <div class="sponsorItem mob-sponsorItem"><a class="sponsorLink" href="https://www.prepbytes.com/"><img class="mob-img1"
-              src="./assets/images/sponsors/Asset 12.webp" alt="">
+              src="./assets/images/sponsors/Asset 12.png" alt="">
           </a></div>
         <div class="sponsorItem mob-sponsorItem"><a class="sponsorLink" href="geeksforgeeks.org"><img class="mob-img1"
-              src="./assets/images/sponsors/Asset 13.webp" alt="">
+              src="./assets/images/sponsors/Asset 13.png" alt="">
           </a></div>
         <div class="sponsorItem scrollbox mob-sponsorItem"><a class="sponsorLink" href="https://www.codingninjas.com/"><img class="mob-img"
-              src="./assets/images/sponsors/Asset 14.webp" alt=""></a></div>
+              src="./assets/images/sponsors/Asset 14.png" alt=""></a></div>
         <div class="sponsorItem mob-sponsorItem"><a class="sponsorLink" href="https://primexbt.com/"><img class="mob-img"
-              src="./assets/images/sponsors/Asset 15.webp" alt="">
+              src="./assets/images/sponsors/Asset 15.png" alt="">
           </a></div>
         <div class="sponsorItem mob-sponsorItem"><a class="sponsorLink" href="https://codingblocks.com/"><img class="mob-img"
-              src="./assets/images/sponsors/Asset 16.webp" alt="">
+              src="./assets/images/sponsors/Asset 16.png" alt="">
           </a></div>
         <div class="sponsorItem mob-sponsorItem"><a class="sponsorLink" href="https://www.aicrntu.com/"><img class="mob-img1"
-              src="./assets/images/sponsors/Asset 17.webp" alt="">
+              src="./assets/images/sponsors/Asset 17.png" alt="">
           </a></div>
         <div class="sponsorItem mob-sponsorItem"><a class="sponsorLink" href="https://www.polygon.com/"><img class="mob-img"
-              src="./assets/images/sponsors/Asset 18.webp" alt="">
+              src="./assets/images/sponsors/Asset 18.png" alt="">
           </a></div>
         <div class="sponsorItem mob-sponsorItem"><a class="sponsorLink" href="https://athenasquare.org/"><img class="mob-img1"
-              src="./assets/images/sponsors/Asset 19.webp" alt="">
+              src="./assets/images/sponsors/Asset 19.png" alt="">
           </a></div>
         <div class="sponsorItem mob-sponsorItem"><a class="sponsorLink" href="https://www.finlatics.com/"><img class="mob-img1"
-              src="./assets/images/sponsors/Asset 21.webp" alt="">
+              src="./assets/images/sponsors/Asset 21.png" alt="">
           </a></div>
         <div class="sponsorItem mob-sponsorItem"><a class="sponsorLink" href="https://celo.org/"><img class="mob-img"
-              src="./assets/images/sponsors/Asset 22.webp" alt="">
+              src="./assets/images/sponsors/Asset 22.png" alt="">
           </a></div>
         <div class="sponsorItem mob-sponsorItem"><a class="sponsorLink" href="https://www.elearnmarkets.com/"><img class="mob-img"
-              src="./assets/images/sponsors/Asset 23.webp" alt="">
+              src="./assets/images/sponsors/Asset 23.png" alt="">
           </a></div>
         <div class="sponsorItem mob-sponsorItem"><a class="sponsorLink" href="https://www.indiaaccelerator.co/"><img class="mob-img"
-              src="./assets/images/sponsors/Asset 24.webp" alt="">
+              src="./assets/images/sponsors/Asset 24.png" alt="">
           </a></div>
         <div class="sponsorItem mob-sponsorItem"><a class="sponsorLink" href="#"><img class="mob-img"
-              src="./assets/images/sponsors/Asset 25.webp" alt="">
+              src="./assets/images/sponsors/Asset 25.png" alt="">
           </a></div>
         <div class="sponsorItem mob-sponsorItem"><a class="sponsorLink" href="http://www.workspace.com/"><img class="mob-img"
-              src="./assets/images/sponsors/Asset 26.webp" alt="">
+              src="./assets/images/sponsors/Asset 26.png" alt="">
           </a></div>
         <div class="sponsorItem mob-sponsorItem"><a class="sponsorLink" href="https://www.skwerup.com/"><img class="mob-img"
-              src="./assets/images/sponsors/Asset 27.webp" alt="">
+              src="./assets/images/sponsors/Asset 27.png" alt="">
           </a></div>
         <div class="sponsorItem mob-sponsorItem"><a class="sponsorLink" href="https://devfolio.co/hackathons/applied"><img class="mob-img"
-              src="./assets/images/sponsors/Asset 28.webp" alt="">
+              src="./assets/images/sponsors/Asset 28.png" alt="">
           </a></div>
         <div class="sponsorItem mob-sponsorItem"><a class="sponsorLink" href="https://filecoin.io/"><img class="mob-img"
-              src="./assets/images/sponsors/Asset 29.webp" alt="">
+              src="./assets/images/sponsors/Asset 29.png" alt="">
           </a></div>
         <div class="sponsorItem mob-sponsorItem"><a class="sponsorLink" href="https://www.notesnaka.com/homepage/"><img class="mob-img"
-              src="./assets/images/sponsors/Asset 30.webp" alt="">
+              src="./assets/images/sponsors/Asset 30.png" alt="">
           </a></div>
         <div class="sponsorItem mob-sponsorItem"><a class="sponsorLink" href="https://www.t3.com/"><img class="mob-img"
-              src="./assets/images/sponsors/Asset 31.webp" alt="">
+              src="./assets/images/sponsors/Asset 31.png" alt="">
           </a></div>
         <div class="sponsorItem mob-sponsorItem"><a class="sponsorLink" href="#"><img class="mob-img"
-              src="./assets/images/sponsors/Asset 32.webp" alt="">
+              src="./assets/images/sponsors/Asset 32.png" alt="">
           </a></div>
         <div class="sponsorItem mob-sponsorItem"><a class="sponsorLink" href="https://www.linuxlinks.com/linux-world/"><img class="mob-img"
-              src="./assets/images/sponsors/Asset 33.webp" alt="">
+              src="./assets/images/sponsors/Asset 33.png" alt="">
           </a></div>
         <div class="sponsorItem mob-sponsorItem"><a class="sponsorLink" href="https://www.icreateedu.com/"><img class="mob-img"
-              src="./assets/images/sponsors/Asset 34.webp" alt="">
+              src="./assets/images/sponsors/Asset 34.png" alt="">
           </a></div>
         <div class="sponsorItem mob-sponsorItem"><a class="sponsorLink" href="https://www.digitalocean.com/"><img class="mob-img"
-              src="./assets/images/sponsors/Asset 35.webp" alt="">
+              src="./assets/images/sponsors/Asset 35.png" alt="">
           </a></div>
         <div class="sponsorItem mob-sponsorItem"><a class="sponsorLink" href="https://codingminutes.com/"><img class="mob-img"
-              src="./assets/images/sponsors/Asset 36.webp" alt="">
+              src="./assets/images/sponsors/Asset 36.png" alt="">
           </a></div>
       </div>
       <center><button  value="VIEW MORE" class="submit-btn mob-submit-btn" onclick="function expand(){document.getElementById('sponsorIcons').style.setProperty('height','auto');document.getElementsByTagName('button')[0].remove();} expand();" style="width:114.12px !important; margin-bottom: 60px;">VIEW MORE</button></center>
@@ -1105,26 +999,9 @@ awakening and encouraging the entrepreneurial spirit of the students.">
         </form>
       </div>
     </div> -->
-     <!-- new sponsor form -->
-  
-    <!-- <div class="formspon" style="border-radius: 10px;"> -->
-      
-  
-  
 
 
-
-    <div id="location2">
-      <div class="sp-form">
-        <p id="sponsersee" >Become our <br> Sponsor</p>
-        <!-- <p id="sponserhid" style="font-weight: bolder; font-size: 1.8rem;">Become our  Sponsor</p> -->
-        <form action=""  id="sp-form-1">
-          <div class="forminput">
-            <input type="email" placeholder="Your email">
-            <button type="submit">Submit</button>
-          </div>
-        </form>
-      </div>
+    <div id="location">
       <center>
         <div class="head gold-hd ere">
           Location
@@ -1137,32 +1014,12 @@ awakening and encouraging the entrepreneurial spirit of the students.">
           <div style="width:737px;margin-top:35px;border-bottom: 2px solid #FFFFFF;" class="line"></div>
         </div>
       </center>
-      
     </div>
-    <!-- <div>
-      <section class="sponsor-form" >
-        <p class="sponsor-heading">Become our Sponsor</p>
-        <form action="">
-          <div class="Sponsor-grid">
-            <div class="sponsor-flex">
-          <input type="text" placeholder="Name">
-          <input type="text" placeholder="Company Name">
-           </div>
-           <div class="sponsor-flex">
-          <input type="number" placeholder="Mobile">
-          <input type="email" placeholder="Email">
-        </div>
-        </div>
-        <div style="width: 100%; display: flex; justify-content:center; margin-top: 20px;">
-          <textarea placeholder="Message" class="sponsertext" style="width: 80%;" name="" id="" cols="10" rows="10"></textarea>
-        </div>
-        <button class="sponsersubmit" type="Submit">Submit</button>
-      </form>
-      </section> -->
+    <div>
       <iframe
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14667.237550403466!2d77.3996967789681!3d23.213616207704654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397c42e43fe40941%3A0x10377d4af64ac6e9!2sMaulana%20Azad%20National%20Institute%20of%20Technology%2C%20Bhopal%2C%20Madhya%20Pradesh%2C%20India!5e0!3m2!1sen!2sus!4v1659611970585!5m2!1sen!2sus"
         style="border:0;width:100%;height:40vh;" allowfullscreen="" loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade"></iframe> -->
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
       <!-- <div style="
             display: flex;
             flex-wrap: wrap;
@@ -1195,11 +1052,11 @@ awakening and encouraging the entrepreneurial spirit of the students.">
         <div class="info-our">
           <div class="info-our-body">
             <i class="fas fa-phone-volume">&nbsp;</i>
-            <a href="tel:+918989473997" style="color:#B5B5B6;">+91 98972 25339</a>
+            <a href="tel:+918989473997" style="color:#B5B5B6;">+91 89894 73997</a>
           </div>
           <div class="info-our-body">
             <i class="far fa-envelope">&nbsp;</i>
-            <a href="mailto: contact@ecellnitb.in" style="color:#B5B5B6;"> contact@ecellnitb.in</a>
+            <a href="mailto: support@ecellnitb.com" style="color:#B5B5B6;"> support@ecellnitb.com</a>
           </div>
           <div class="info-our-body">
             <i class="fas fa-map-marker-alt">&nbsp;</i>
@@ -1231,10 +1088,6 @@ awakening and encouraging the entrepreneurial spirit of the students.">
     </div>
   </div> -->
 
-
-
-
- 
       <!-- mobile footer starts -->
       <div style=" 
             display: flex;
@@ -1296,11 +1149,11 @@ awakening and encouraging the entrepreneurial spirit of the students.">
               <div>
                 <div class="info-our-body">
                   <i class="fas fa-phone-volume" aria-hidden="true">&nbsp;</i>
-                  <a href="tel:+919897225339" style="color:#B5B5B6;">+91 98972 25339</a>
+                  <a href="tel:+918989473997" style="color:#B5B5B6;">+91 7757877965</a>
                 </div>
                 <div class="info-our-body">
                   <i class="far fa-envelope" aria-hidden="true">&nbsp;</i>
-                  <a href="mailto: contact@ecellnitb.in" style="color:#B5B5B6;"> contact@ecellnitb.in</a>
+                  <a href="mailto: support@ecellnitb.com" style="color:#B5B5B6;"> support@ecellnitb.com</a>
                 </div>
               </div>
 
@@ -1524,25 +1377,12 @@ awakening and encouraging the entrepreneurial spirit of the students.">
 
 <!-- nav script starts here -->
 <script>
-  let scrollOn = true;
   const navSlide = () => {
     const burger = document.querySelector('.burger');
     const nav = document.querySelector('.nav-items');
     const navLinks = document.querySelectorAll('.nav-link');
     // Toggle Nav
     burger.addEventListener('click', () => {
-
-      if(scrollOn) {
-        const body = document.body;
-        body.style.height = '100vh';
-        body.style.overflowY = 'hidden';
-        scrollOn = false;
-      } else {
-        const body = document.body;
-        body.style.height = '';
-        body.style.overflowY = '';
-        scrollOn = true;
-      }
       nav.classList.toggle('nav-active');
       // Animate links
       navLinks.forEach((link, index) => {
@@ -1563,8 +1403,6 @@ awakening and encouraging the entrepreneurial spirit of the students.">
   }
   navSlide();
 </script>
-<script src="counter.js"></script>
-<script src="navcolor.js"></script>
 <!-- nav script ends here -->
 
 </html>
