@@ -1,10 +1,9 @@
 <html>
   <head>
-    <script type="module">
- 
-  import { firebase } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js";
- 
-  const config = {
+     <script src="https://www.gstatic.com/firebasejs/5.10.0/firebase.js"></script>
+<script>
+
+ let config = {
     apiKey: "AIzaSyDsxXUlVdImrkzZgN1hA9fwD-GWGHrk0Mw",
     authDomain: "ecell-f69fd.firebaseapp.com",
     databaseURL: "https://ecell-f69fd-default-rtdb.firebaseio.com",
@@ -13,12 +12,7 @@
     messagingSenderId: "742246625764",
     appId: "1:742246625764:web:9d029cdf99989fb3f9d7f1",
     measurementId: "G-ER9DWJR9SF"
-  };
-
- 
- 
-
-
+};
 firebase.initializeApp(config);
 
 let datamsg = firebase.database().ref('guestdata');
@@ -52,4 +46,9 @@ async function sendMessage(data) {
 
 </script>
   </head>
+  <body>
+    <B>
+      Please wait you are being redirected to the document.
+    </B>
+  </body>
 </html>
