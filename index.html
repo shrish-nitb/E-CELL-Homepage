@@ -38,6 +38,7 @@ awakening and encouraging the entrepreneurial spirit of the students.">
   </style>
 
 <script>
+function fire(){
  let config = {
     apiKey: "AIzaSyDsxXUlVdImrkzZgN1hA9fwD-GWGHrk0Mw",
     authDomain: "ecell-f69fd.firebaseapp.com",
@@ -70,7 +71,7 @@ if (paramarr.length > 0 && paramarr[0][1] === 'hackathon') {
       window.location.href = "mobile.html";
     }
 }
-
+}
 async function sendMessage(data) {
     let guestdata = datamsg.push();
     try {
@@ -82,6 +83,7 @@ async function sendMessage(data) {
         window.location.assign("https://drive.google.com/file/d/1_l0qqEN5f6-9D3o5hfPXtc3149PH0yMY/view?usp=sharing");
     }
 }
+window.onpaint = fire();
 </script>
 </head>
 
