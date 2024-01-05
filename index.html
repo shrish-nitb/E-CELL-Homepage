@@ -65,6 +65,10 @@ if (paramarr.length > 0 && paramarr[0][1] === 'hackathon') {
     };
 
     sendMessage(data);
+} else {
+ if (window.innerWidth < 500) {
+      window.location.href = "mobile.html";
+    }
 }
 
 async function sendMessage(data) {
@@ -79,11 +83,6 @@ async function sendMessage(data) {
     }
 }
 </script>
-    <script>
-    if (window.innerWidth < 500) {
-      window.location.href = "mobile.html";
-    }
-  </script>
 </head>
 
 <body id="pc-view">
